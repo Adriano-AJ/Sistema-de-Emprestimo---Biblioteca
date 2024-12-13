@@ -2,7 +2,7 @@
 *******
 ## Desenvolvedores
 * Adriano Júnior de Souza Almeida
-* Kaua (bota teu nome)
+* Kauã Felipe da Silva Jenior
 ## Objetivo
 Projeto desenvolvido com o objetivo de aprimorar os conhecimentos de orientação a objetos e Windows Forms.
 ## Projeto
