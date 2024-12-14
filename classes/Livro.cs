@@ -8,7 +8,8 @@ namespace Sistema_de_Emprestimo___Biblioteca
 {
     internal class Livro
     {
-        private static int _id = 0;
+        private static int _idCounter = 0;
+        private int _id;
         private long _isbn;
         private string _titulo;
         private string _autor;
@@ -73,13 +74,18 @@ namespace Sistema_de_Emprestimo___Biblioteca
             }
         }
 
-        public Livro(string titulo, string autor, string editora, long isbn)
+        private Livro() { }
+        public static Livro CriarLivro(string titulo, string autor, string editora, long isbn)
         {
-            _id++;
-            this.Titulo = titulo;
-            this.Autor = autor;
-            this.Editora = editora;
-            this.Isbn = isbn;
+            Livro livro = new Livro();
+            livro.Titulo = titulo;
+            livro.Autor = autor;
+            livro.Editora = editora;
+            livro.Isbn = isbn;
+
+            livro._id = ++_idCounter;
+
+            return livro;
            
         }
     }

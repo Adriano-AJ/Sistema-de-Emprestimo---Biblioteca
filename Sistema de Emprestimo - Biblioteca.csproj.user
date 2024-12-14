@@ -7,6 +7,12 @@
     <Compile Update="forms\Associados\frmCadastrarAssociado.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="forms\Associados\frmConsultaAssociado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="forms\Associados\frmDeletarAssociados.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="forms\Form1.cs">
       <SubType>Form</SubType>
     </Compile>

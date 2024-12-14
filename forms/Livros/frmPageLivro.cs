@@ -50,5 +50,16 @@ namespace Sistema_de_Emprestimo___Biblioteca
             panel1.Controls.Add(frmConsultaLivro);
             frmConsultaLivro.Show();
         }
+
+        private void iconButton4_Click(object sender, EventArgs e)
+        {
+            frmDeletaLivro frmDeletaLivro = new frmDeletaLivro();
+            frmDeletaLivro.TopLevel = false;
+            frmDeletaLivro.FormBorderStyle= FormBorderStyle.None;
+            frmDeletaLivro.Dock = DockStyle.Fill;  
+            panel1.Controls.Clear();
+            panel1.Controls.Add(frmDeletaLivro);
+            frmDeletaLivro.Show();
+        }
     }
 }

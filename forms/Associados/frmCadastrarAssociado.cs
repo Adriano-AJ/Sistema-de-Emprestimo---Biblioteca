@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Sistema_de_Emprestimo___Biblioteca.forms.Associados;
 
 namespace Sistema_de_Emprestimo___Biblioteca
 {
@@ -19,7 +20,13 @@ namespace Sistema_de_Emprestimo___Biblioteca
 
         private void iconButton1_Click(object sender, EventArgs e)
         {
-
+            frmConsultaAssociado frmConsultaAssociado = new frmConsultaAssociado();
+            frmConsultaAssociado.TopLevel = false;
+            frmConsultaAssociado.FormBorderStyle = FormBorderStyle.None;
+            frmConsultaAssociado.Dock = DockStyle.Fill;
+            panelAssociado.Controls.Clear();
+            panelAssociado.Controls.Add(frmConsultaAssociado);
+            frmConsultaAssociado.Show();
         }
 
         private void iconButton3_Click(object sender, EventArgs e)
@@ -36,6 +43,11 @@ namespace Sistema_de_Emprestimo___Biblioteca
         private void iconButton2_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void iconButton4_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

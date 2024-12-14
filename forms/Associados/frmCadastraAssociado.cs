@@ -16,36 +16,48 @@ namespace Sistema_de_Emprestimo___Biblioteca
         {
             InitializeComponent();
         }
-
-        private void label7_Click(object sender, EventArgs e)
+        
+        private void btnAdicionarNovoAssociado_Click(object sender, EventArgs e)
         {
+           
 
-        }
-
-        private void frmCadastraAssociado_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            string nome, sexo, logradouro, cidade, estado, cpf, pais;
-            //FAZER O TRATAMENTO DE ERROS 
-            //VALIDAR AS ENTRADAS DOS CAMPOS
             try
             {
-                nome = txtNomeAssociado.Text;
-                sexo = cmbSexoAssociado.Text;
-                MessageBox.Show(sexo);
+                string nome = txtNomeAssociado.Text;
+                string sexo = cmbSexoAssociado.Text; 
+                string logradouro = txtLogradouroAssociado.Text;
+                string cidade = txtCidadeAssociado.Text;
+                string estado = txtEstadoAssociado.Text;
+                string cpf = txtCpfAssociado.Text;
+                string pais = txtPaisAssociado.Text;
+                double multa = 0;
+
+
+
+                Associados Associados1 = Associados.CriarAssociado(nome,cpf,sexo,logradouro,cidade,estado,pais);
+                BancoDados.Associados.Add(Associados1);
+
+                ListViewItem item = new ListViewItem(Associados1.Id.ToString());
+                item.SubItems.Add(Associados1.Nome);
+                item.SubItems.Add(Associados1.CPF);
+                item.SubItems.Add(Associados1.Sexo);
+                item.SubItems.Add(Associados1.Logradouro);
+                item.SubItems.Add(Associados1.Cidade);
+                item.SubItems.Add(Associados1.Estado);
+                item.SubItems.Add(Associados1.Pais);
+
+                listAssociadosNovos.Items.Add(item);
+                MessageBox.Show("Associado adicionado com sucesso!");
+            }
+            catch (ArgumentException ex)
+            {
+                // Mostra mensagens de erro específicas
+                MessageBox.Show($"Erro: {ex.Message}");
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                // Mostra mensagens de erro gerais
+                MessageBox.Show($"Erro inesperado: {ex.Message}");
             }
         }
     }

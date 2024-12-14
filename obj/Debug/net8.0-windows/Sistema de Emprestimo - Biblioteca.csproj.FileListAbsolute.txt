@@ -25,3 +25,32 @@ C:\Users\jusia\OneDrive\Área de Trabalho\Trabalho - Dupla\Sistema de Emprestimo
 C:\Users\jusia\OneDrive\Área de Trabalho\Trabalho - Dupla\Sistema de Emprestimo - Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.frmConsultaLivro.resources
 C:\Users\jusia\OneDrive\Área de Trabalho\Trabalho - Dupla\Sistema de Emprestimo - Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.frmDeletaLivro.resources
 C:\Users\jusia\OneDrive\Área de Trabalho\Trabalho - Dupla\Sistema de Emprestimo - Biblioteca\obj\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.sourcelink.json
+C:\Users\alexa\Source\Repos\Sistema-de-Emprestimo---Biblioteca\bin\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.exe
+C:\Users\alexa\Source\Repos\Sistema-de-Emprestimo---Biblioteca\bin\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.deps.json
+C:\Users\alexa\Source\Repos\Sistema-de-Emprestimo---Biblioteca\bin\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.runtimeconfig.json
+C:\Users\alexa\Source\Repos\Sistema-de-Emprestimo---Biblioteca\bin\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.dll
+C:\Users\alexa\Source\Repos\Sistema-de-Emprestimo---Biblioteca\bin\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.pdb
+C:\Users\alexa\Source\Repos\Sistema-de-Emprestimo---Biblioteca\bin\Debug\net8.0-windows\FontAwesome.Sharp.dll
+C:\Users\alexa\Source\Repos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.csproj.AssemblyReference.cache
+C:\Users\alexa\Source\Repos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.frmCadastraAssociado.resources
+C:\Users\alexa\Source\Repos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.frmPageAssociado.resources
+C:\Users\alexa\Source\Repos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.Form1.resources
+C:\Users\alexa\Source\Repos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.frmCadastraLivro.resources
+C:\Users\alexa\Source\Repos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.frmConsultaLivro.resources
+C:\Users\alexa\Source\Repos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.frmDeletaLivro.resources
+C:\Users\alexa\Source\Repos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.frmPageLivro.resources
+C:\Users\alexa\Source\Repos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.Properties.Resources.resources
+C:\Users\alexa\Source\Repos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.csproj.GenerateResource.cache
+C:\Users\alexa\Source\Repos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\Source\Repos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.AssemblyInfoInputs.cache
+C:\Users\alexa\Source\Repos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.AssemblyInfo.cs
+C:\Users\alexa\Source\Repos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\alexa\Source\Repos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.sourcelink.json
+C:\Users\alexa\Source\Repos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema .103696DB.Up2Date
+C:\Users\alexa\Source\Repos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.dll
+C:\Users\alexa\Source\Repos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\refint\Sistema de Emprestimo - Biblioteca.dll
+C:\Users\alexa\Source\Repos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.pdb
+C:\Users\alexa\Source\Repos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.genruntimeconfig.cache
+C:\Users\alexa\Source\Repos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\ref\Sistema de Emprestimo - Biblioteca.dll
+C:\Users\alexa\Source\Repos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.forms.Associados.frmConsultaAssociado.resources
+C:\Users\alexa\Source\Repos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.forms.Associados.frmDeletarAssociados.resources

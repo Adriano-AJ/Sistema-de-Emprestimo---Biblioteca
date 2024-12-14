@@ -42,14 +42,14 @@ namespace Sistema_de_Emprestimo___Biblioteca
                 autor = txtNomeAutorLivro.Text;
                 isbn = long.Parse(txtIsbnLivro.Text);
 
-                Livro livro = new Livro(titulo, autor, editora, isbn);
+                Livro livro =  Livro.CriarLivro(titulo, autor, editora, isbn);
                 BancoDados.livros.Add(livro);
 
                 ListViewItem item = new ListViewItem(livro.Id.ToString());
 
                 item.SubItems.Add(livro.Titulo);
                 item.SubItems.Add(livro.Autor); 
-                item.SubItems.Add(livro.Isbn.ToString());
+                item.SubItems.Add(livro.Editora);
 
                 listLivrosCadastrados.Items.Add(item);
                 
@@ -57,6 +57,7 @@ namespace Sistema_de_Emprestimo___Biblioteca
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
+                
             }
         }
     }

@@ -16,5 +16,12 @@ namespace Sistema_de_Emprestimo___Biblioteca
         {
             InitializeComponent();
         }
+
+        private void btnBuscarLivroNome_Click(object sender, EventArgs e)
+        {
+            // Adicione aqui o código para buscar livros pelo nome
+            MessageBox.Show("Buscar Livro pelo Nome ainda não implementado.");
+        }
+
     }
 }

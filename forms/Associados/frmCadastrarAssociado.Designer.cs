@@ -140,6 +140,7 @@
             iconButton4.Text = "Deletar";
             iconButton4.TextImageRelation = TextImageRelation.ImageBeforeText;
             iconButton4.UseVisualStyleBackColor = false;
+            iconButton4.Click += iconButton4_Click;
             // 
             // frmPageAssociado
             // 

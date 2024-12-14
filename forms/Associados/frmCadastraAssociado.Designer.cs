@@ -40,7 +40,6 @@
             columnHeader8 = new ColumnHeader();
             panel1 = new Panel();
             label7 = new Label();
-            cmbCidadeAssociado = new ComboBox();
             txtNomeAssociado = new TextBox();
             txtLogradouroAssociado = new TextBox();
             txtPaisAssociado = new TextBox();
@@ -50,9 +49,10 @@
             label5 = new Label();
             cmbSexoAssociado = new ComboBox();
             label4 = new Label();
-            cmbEstadoAssociado = new ComboBox();
             label2 = new Label();
             label3 = new Label();
+            txtEstadoAssociado = new TextBox();
+            txtCidadeAssociado = new TextBox();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -67,7 +67,7 @@
             btnAdicionarNovoAssociado.TabIndex = 3;
             btnAdicionarNovoAssociado.Text = "Adicionar";
             btnAdicionarNovoAssociado.UseVisualStyleBackColor = false;
-            btnAdicionarNovoAssociado.Click += button1_Click;
+            btnAdicionarNovoAssociado.Click += btnAdicionarNovoAssociado_Click;
             // 
             // listAssociadosNovos
             // 
@@ -116,8 +116,9 @@
             // 
             panel1.BackColor = SystemColors.ControlLightLight;
             panel1.BorderStyle = BorderStyle.FixedSingle;
+            panel1.Controls.Add(txtCidadeAssociado);
+            panel1.Controls.Add(txtEstadoAssociado);
             panel1.Controls.Add(label7);
-            panel1.Controls.Add(cmbCidadeAssociado);
             panel1.Controls.Add(txtNomeAssociado);
             panel1.Controls.Add(txtLogradouroAssociado);
             panel1.Controls.Add(txtPaisAssociado);
@@ -127,14 +128,12 @@
             panel1.Controls.Add(label5);
             panel1.Controls.Add(cmbSexoAssociado);
             panel1.Controls.Add(label4);
-            panel1.Controls.Add(cmbEstadoAssociado);
             panel1.Controls.Add(label2);
             panel1.Controls.Add(label3);
             panel1.Location = new Point(24, 12);
             panel1.Name = "panel1";
             panel1.Size = new Size(459, 206);
             panel1.TabIndex = 16;
-            panel1.Paint += panel1_Paint;
             // 
             // label7
             // 
@@ -144,15 +143,6 @@
             label7.Size = new Size(44, 15);
             label7.TabIndex = 27;
             label7.Text = "Cidade";
-            // 
-            // cmbCidadeAssociado
-            // 
-            cmbCidadeAssociado.FormattingEnabled = true;
-            cmbCidadeAssociado.Items.AddRange(new object[] { "Cubatão", "Santos", "São Vicente", "Praia Grande" });
-            cmbCidadeAssociado.Location = new Point(257, 122);
-            cmbCidadeAssociado.Name = "cmbCidadeAssociado";
-            cmbCidadeAssociado.Size = new Size(166, 23);
-            cmbCidadeAssociado.TabIndex = 26;
             // 
             // txtNomeAssociado
             // 
@@ -227,15 +217,6 @@
             label4.TabIndex = 19;
             label4.Text = "Logradouro";
             // 
-            // cmbEstadoAssociado
-            // 
-            cmbEstadoAssociado.FormattingEnabled = true;
-            cmbEstadoAssociado.Items.AddRange(new object[] { "São Paulo" });
-            cmbEstadoAssociado.Location = new Point(257, 78);
-            cmbEstadoAssociado.Name = "cmbEstadoAssociado";
-            cmbEstadoAssociado.Size = new Size(166, 23);
-            cmbEstadoAssociado.TabIndex = 16;
-            // 
             // label2
             // 
             label2.AutoSize = true;
@@ -250,9 +231,23 @@
             label3.AutoSize = true;
             label3.Location = new Point(34, 118);
             label3.Name = "label3";
-            label3.Size = new Size(32, 15);
+            label3.Size = new Size(31, 15);
             label3.TabIndex = 18;
             label3.Text = "Sexo";
+            // 
+            // txtEstadoAssociado
+            // 
+            txtEstadoAssociado.Location = new Point(257, 78);
+            txtEstadoAssociado.Name = "txtEstadoAssociado";
+            txtEstadoAssociado.Size = new Size(166, 23);
+            txtEstadoAssociado.TabIndex = 28;
+            // 
+            // txtCidadeAssociado
+            // 
+            txtCidadeAssociado.Location = new Point(257, 127);
+            txtCidadeAssociado.Name = "txtCidadeAssociado";
+            txtCidadeAssociado.Size = new Size(166, 23);
+            txtCidadeAssociado.TabIndex = 29;
             // 
             // frmCadastraAssociado
             // 
@@ -265,7 +260,6 @@
             Controls.Add(btnAdicionarNovoAssociado);
             Name = "frmCadastraAssociado";
             Text = "frmCadastraAssociado";
-            Load += frmCadastraAssociado_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);
@@ -284,7 +278,6 @@
         private Label label5;
         private ComboBox cmbSexoAssociado;
         private Label label4;
-        private ComboBox cmbEstadoAssociado;
         private Label label2;
         private Label label3;
         private ColumnHeader columnHeader1;
@@ -295,7 +288,8 @@
         private ColumnHeader columnHeader6;
         private ColumnHeader columnHeader7;
         private Label label7;
-        private ComboBox cmbCidadeAssociado;
         private ColumnHeader columnHeader8;
+        private TextBox txtCidadeAssociado;
+        private TextBox txtEstadoAssociado;
     }
 }
