@@ -1,3 +1,5 @@
+using Sistema_de_Emprestimo___Biblioteca.forms.Emprestimo;
+
 namespace Sistema_de_Emprestimo___Biblioteca
 {
     public partial class Form1 : Form
@@ -42,6 +44,12 @@ namespace Sistema_de_Emprestimo___Biblioteca
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void novoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmNovoEmprestimo frmNovoEmprestimo = new frmNovoEmprestimo();
+            frmNovoEmprestimo.Show();
         }
     }
 }

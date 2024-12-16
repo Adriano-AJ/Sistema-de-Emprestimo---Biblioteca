@@ -11,5 +11,7 @@ namespace Sistema_de_Emprestimo___Biblioteca
         public static List<Livro> livros = new List<Livro>();
         public static List<Associados> Associados = new List<Associados>();
         public static List<Emprestimo> Emprestimos = new List<Emprestimo>();
+
+
     }
 }

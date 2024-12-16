@@ -32,8 +32,10 @@
             menuStrip1 = new MenuStrip();
             associadosToolStripMenuItem = new ToolStripMenuItem();
             livrosToolStripMenuItem = new ToolStripMenuItem();
-            panelFormPrincipal = new Panel();
             emprestimosToolStripMenuItem = new ToolStripMenuItem();
+            novoToolStripMenuItem = new ToolStripMenuItem();
+            consultarToolStripMenuItem = new ToolStripMenuItem();
+            panelFormPrincipal = new Panel();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -61,6 +63,26 @@
             livrosToolStripMenuItem.Text = "Livros";
             livrosToolStripMenuItem.Click += livrosToolStripMenuItem_Click;
             // 
+            // emprestimosToolStripMenuItem
+            // 
+            emprestimosToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { novoToolStripMenuItem, consultarToolStripMenuItem });
+            emprestimosToolStripMenuItem.Name = "emprestimosToolStripMenuItem";
+            emprestimosToolStripMenuItem.Size = new Size(88, 20);
+            emprestimosToolStripMenuItem.Text = "Emprestimos";
+            // 
+            // novoToolStripMenuItem
+            // 
+            novoToolStripMenuItem.Name = "novoToolStripMenuItem";
+            novoToolStripMenuItem.Size = new Size(180, 22);
+            novoToolStripMenuItem.Text = "Novo";
+            novoToolStripMenuItem.Click += novoToolStripMenuItem_Click;
+            // 
+            // consultarToolStripMenuItem
+            // 
+            consultarToolStripMenuItem.Name = "consultarToolStripMenuItem";
+            consultarToolStripMenuItem.Size = new Size(180, 22);
+            consultarToolStripMenuItem.Text = "Consultar";
+            // 
             // panelFormPrincipal
             // 
             panelFormPrincipal.BackColor = Color.FromArgb(128, 64, 0);
@@ -70,12 +92,6 @@
             panelFormPrincipal.Name = "panelFormPrincipal";
             panelFormPrincipal.Size = new Size(800, 454);
             panelFormPrincipal.TabIndex = 7;
-            // 
-            // emprestimosToolStripMenuItem
-            // 
-            emprestimosToolStripMenuItem.Name = "emprestimosToolStripMenuItem";
-            emprestimosToolStripMenuItem.Size = new Size(88, 20);
-            emprestimosToolStripMenuItem.Text = "Emprestimos";
             // 
             // Form1
             // 
@@ -101,5 +117,7 @@
         private ToolStripMenuItem livrosToolStripMenuItem;
         private Panel panelFormPrincipal;
         private ToolStripMenuItem emprestimosToolStripMenuItem;
+        private ToolStripMenuItem novoToolStripMenuItem;
+        private ToolStripMenuItem consultarToolStripMenuItem;
     }
 }

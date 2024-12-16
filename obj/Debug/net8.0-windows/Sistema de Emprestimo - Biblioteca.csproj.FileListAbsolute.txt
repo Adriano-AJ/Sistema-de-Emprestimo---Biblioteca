@@ -54,3 +54,33 @@ C:\Users\alexa\Source\Repos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-
 C:\Users\alexa\Source\Repos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\ref\Sistema de Emprestimo - Biblioteca.dll
 C:\Users\alexa\Source\Repos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.forms.Associados.frmConsultaAssociado.resources
 C:\Users\alexa\Source\Repos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.forms.Associados.frmDeletarAssociados.resources
+C:\Users\aluno\Downloads\Adriano-AJ\Sistema-de-Emprestimo---Biblioteca\bin\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.exe
+C:\Users\aluno\Downloads\Adriano-AJ\Sistema-de-Emprestimo---Biblioteca\bin\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.deps.json
+C:\Users\aluno\Downloads\Adriano-AJ\Sistema-de-Emprestimo---Biblioteca\bin\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.runtimeconfig.json
+C:\Users\aluno\Downloads\Adriano-AJ\Sistema-de-Emprestimo---Biblioteca\bin\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.dll
+C:\Users\aluno\Downloads\Adriano-AJ\Sistema-de-Emprestimo---Biblioteca\bin\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.pdb
+C:\Users\aluno\Downloads\Adriano-AJ\Sistema-de-Emprestimo---Biblioteca\bin\Debug\net8.0-windows\FontAwesome.Sharp.dll
+C:\Users\aluno\Downloads\Adriano-AJ\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.csproj.AssemblyReference.cache
+C:\Users\aluno\Downloads\Adriano-AJ\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.frmCadastraAssociado.resources
+C:\Users\aluno\Downloads\Adriano-AJ\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.frmPageAssociado.resources
+C:\Users\aluno\Downloads\Adriano-AJ\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.forms.Associados.frmConsultaAssociado.resources
+C:\Users\aluno\Downloads\Adriano-AJ\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.forms.Associados.frmDeletarAssociados.resources
+C:\Users\aluno\Downloads\Adriano-AJ\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.Form1.resources
+C:\Users\aluno\Downloads\Adriano-AJ\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.frmCadastraLivro.resources
+C:\Users\aluno\Downloads\Adriano-AJ\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.frmConsultaLivro.resources
+C:\Users\aluno\Downloads\Adriano-AJ\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.frmDeletaLivro.resources
+C:\Users\aluno\Downloads\Adriano-AJ\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.frmPageLivro.resources
+C:\Users\aluno\Downloads\Adriano-AJ\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.Properties.Resources.resources
+C:\Users\aluno\Downloads\Adriano-AJ\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.csproj.GenerateResource.cache
+C:\Users\aluno\Downloads\Adriano-AJ\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aluno\Downloads\Adriano-AJ\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.AssemblyInfoInputs.cache
+C:\Users\aluno\Downloads\Adriano-AJ\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.AssemblyInfo.cs
+C:\Users\aluno\Downloads\Adriano-AJ\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Downloads\Adriano-AJ\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.sourcelink.json
+C:\Users\aluno\Downloads\Adriano-AJ\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema .103696DB.Up2Date
+C:\Users\aluno\Downloads\Adriano-AJ\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.dll
+C:\Users\aluno\Downloads\Adriano-AJ\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\refint\Sistema de Emprestimo - Biblioteca.dll
+C:\Users\aluno\Downloads\Adriano-AJ\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.pdb
+C:\Users\aluno\Downloads\Adriano-AJ\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.genruntimeconfig.cache
+C:\Users\aluno\Downloads\Adriano-AJ\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\ref\Sistema de Emprestimo - Biblioteca.dll
+C:\Users\aluno\Downloads\Adriano-AJ\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.forms.Emprestimo.frmNovoEmprestimo.resources

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sistema de Emprestimo - Biblioteca")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7da4a1aa2d32cbc5d2457d3eeb9d23cb391fab2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c594c1164ed82398e67300ac6c0abe0ddb8954b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sistema de Emprestimo - Biblioteca")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sistema de Emprestimo - Biblioteca")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
