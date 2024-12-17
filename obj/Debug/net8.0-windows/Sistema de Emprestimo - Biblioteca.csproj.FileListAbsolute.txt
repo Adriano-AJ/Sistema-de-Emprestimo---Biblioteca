@@ -84,3 +84,4 @@ C:\Users\aluno\Downloads\Adriano-AJ\Sistema-de-Emprestimo---Biblioteca\obj\Debug
 C:\Users\aluno\Downloads\Adriano-AJ\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.genruntimeconfig.cache
 C:\Users\aluno\Downloads\Adriano-AJ\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\ref\Sistema de Emprestimo - Biblioteca.dll
 C:\Users\aluno\Downloads\Adriano-AJ\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.forms.Emprestimo.frmNovoEmprestimo.resources
+C:\Users\aluno\Downloads\Adriano-AJ\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.forms.Emprestimo.frmConsultarEmprestimo.resources

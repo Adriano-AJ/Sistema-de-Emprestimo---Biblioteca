@@ -30,17 +30,17 @@
         {
             label2 = new Label();
             label1 = new Label();
-            textBox1 = new TextBox();
+            txtCpfAssociadoEmprestimo = new TextBox();
             button1 = new Button();
-            listView2 = new ListView();
+            listLivroEmprestimo = new ListView();
             columnHeader1 = new ColumnHeader();
             columnHeader2 = new ColumnHeader();
             columnHeader3 = new ColumnHeader();
             columnHeader4 = new ColumnHeader();
             label3 = new Label();
-            textBox2 = new TextBox();
+            txtBuscaLivro = new TextBox();
             label4 = new Label();
-            dateTimePicker1 = new DateTimePicker();
+            dateSelect = new DateTimePicker();
             SuspendLayout();
             // 
             // label2
@@ -60,12 +60,12 @@
             label1.TabIndex = 8;
             label1.Text = "Cpf do Associado";
             // 
-            // textBox1
+            // txtCpfAssociadoEmprestimo
             // 
-            textBox1.Location = new Point(134, 12);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 7;
+            txtCpfAssociadoEmprestimo.Location = new Point(134, 12);
+            txtCpfAssociadoEmprestimo.Name = "txtCpfAssociadoEmprestimo";
+            txtCpfAssociadoEmprestimo.Size = new Size(100, 23);
+            txtCpfAssociadoEmprestimo.TabIndex = 7;
             // 
             // button1
             // 
@@ -77,15 +77,15 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // listView2
+            // listLivroEmprestimo
             // 
-            listView2.Columns.AddRange(new ColumnHeader[] { columnHeader1, columnHeader2, columnHeader3, columnHeader4 });
-            listView2.Location = new Point(254, 41);
-            listView2.Name = "listView2";
-            listView2.Size = new Size(232, 233);
-            listView2.TabIndex = 12;
-            listView2.UseCompatibleStateImageBehavior = false;
-            listView2.View = View.Details;
+            listLivroEmprestimo.Columns.AddRange(new ColumnHeader[] { columnHeader1, columnHeader2, columnHeader3, columnHeader4 });
+            listLivroEmprestimo.Location = new Point(254, 41);
+            listLivroEmprestimo.Name = "listLivroEmprestimo";
+            listLivroEmprestimo.Size = new Size(232, 233);
+            listLivroEmprestimo.TabIndex = 12;
+            listLivroEmprestimo.UseCompatibleStateImageBehavior = false;
+            listLivroEmprestimo.View = View.Details;
             // 
             // columnHeader1
             // 
@@ -93,7 +93,7 @@
             // 
             // columnHeader2
             // 
-            columnHeader2.Text = "Status";
+            columnHeader2.Text = "Isbn";
             // 
             // columnHeader3
             // 
@@ -112,12 +112,13 @@
             label3.TabIndex = 13;
             label3.Text = "Buscar Livro";
             // 
-            // textBox2
+            // txtBuscaLivro
             // 
-            textBox2.Location = new Point(331, 12);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(155, 23);
-            textBox2.TabIndex = 14;
+            txtBuscaLivro.Location = new Point(331, 12);
+            txtBuscaLivro.Name = "txtBuscaLivro";
+            txtBuscaLivro.Size = new Size(155, 23);
+            txtBuscaLivro.TabIndex = 14;
+            txtBuscaLivro.TextChanged += txtBuscaLivro_TextChanged;
             // 
             // label4
             // 
@@ -128,25 +129,26 @@
             label4.TabIndex = 16;
             label4.Text = "Data";
             // 
-            // dateTimePicker1
+            // dateSelect
             // 
-            dateTimePicker1.Location = new Point(65, 47);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(169, 23);
-            dateTimePicker1.TabIndex = 17;
+            dateSelect.Location = new Point(65, 47);
+            dateSelect.Name = "dateSelect";
+            dateSelect.Size = new Size(169, 23);
+            dateSelect.TabIndex = 17;
+            dateSelect.ValueChanged += dateTimePicker1_ValueChanged;
             // 
             // frmNovoEmprestimo
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(498, 286);
-            Controls.Add(dateTimePicker1);
+            Controls.Add(dateSelect);
             Controls.Add(label4);
-            Controls.Add(textBox2);
+            Controls.Add(txtBuscaLivro);
             Controls.Add(label3);
-            Controls.Add(listView2);
+            Controls.Add(listLivroEmprestimo);
             Controls.Add(label1);
-            Controls.Add(textBox1);
+            Controls.Add(txtCpfAssociadoEmprestimo);
             Controls.Add(button1);
             Controls.Add(label2);
             Name = "frmNovoEmprestimo";
@@ -158,16 +160,16 @@
         #endregion
         private Label label2;
         private Label label1;
-        private TextBox textBox1;
+        private TextBox txtCpfAssociadoEmprestimo;
         private Button button1;
-        private ListView listView2;
+        private ListView listLivroEmprestimo;
         private ColumnHeader columnHeader1;
         private ColumnHeader columnHeader2;
         private ColumnHeader columnHeader3;
         private ColumnHeader columnHeader4;
         private Label label3;
-        private TextBox textBox2;
+        private TextBox txtBuscaLivro;
         private Label label4;
-        private DateTimePicker dateTimePicker1;
+        private DateTimePicker dateSelect;
     }
 }
