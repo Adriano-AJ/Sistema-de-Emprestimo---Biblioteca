@@ -47,7 +47,13 @@ namespace Sistema_de_Emprestimo___Biblioteca
 
         private void iconButton4_Click(object sender, EventArgs e)
         {
-            
+             frmDeletarAssociados frmDeletarAssociados = new frmDeletarAssociados();
+            frmDeletarAssociados.TopLevel = false;
+            frmDeletarAssociados.FormBorderStyle = FormBorderStyle.None;
+            frmDeletarAssociados.Dock = DockStyle.Fill;
+            panelAssociado.Controls.Clear();
+            panelAssociado.Controls.Add(frmDeletarAssociados);
+            frmDeletarAssociados.Show();
         }
     }
 }

@@ -51,8 +51,8 @@ namespace Sistema_de_Emprestimo___Biblioteca
             get { return _sexo; }
             set
             {
-                if (value != "M" && value != "F")
-                    throw new ArgumentException("Sexo deve ser 'M' ou 'F'.");
+                if (value != "Masculino" && value != "Feminino")
+                    throw new ArgumentException("Sexo deve ser 'Masculino' ou 'Feminino'.");
                 _sexo = value;
             }
         }

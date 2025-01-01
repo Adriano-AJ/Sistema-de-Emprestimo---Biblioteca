@@ -35,7 +35,7 @@ namespace Sistema_de_Emprestimo___Biblioteca
 
 
                 Associados Associados1 = Associados.CriarAssociado(nome,cpf,sexo,logradouro,cidade,estado,pais);
-                BancoDados.Associados.Add(Associados1);
+                BancoDados.Associado.Add(Associados1);
 
                 ListViewItem item = new ListViewItem(Associados1.Id.ToString());
                 item.SubItems.Add(Associados1.Nome);

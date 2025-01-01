@@ -1,66 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\aluno\\Downloads\\Adriano-AJ\\Sistema-de-Emprestimo---Biblioteca\\",
+  "WorkspaceRootPath": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|c:\\users\\aluno\\downloads\\adriano-aj\\sistema-de-emprestimo---biblioteca\\forms\\emprestimo\\frmnovoemprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:forms\\emprestimo\\frmnovoemprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|c:\\users\\alexa\\source\\repos\\sistema-de-emprestimo---biblioteca\\forms\\livros\\frmdeletalivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:forms\\livros\\frmdeletalivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|c:\\users\\aluno\\downloads\\adriano-aj\\sistema-de-emprestimo---biblioteca\\forms\\emprestimo\\frmnovoemprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:forms\\emprestimo\\frmnovoemprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|c:\\users\\alexa\\source\\repos\\sistema-de-emprestimo---biblioteca\\forms\\associados\\frmconsultaassociado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:forms\\associados\\frmconsultaassociado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|c:\\users\\aluno\\downloads\\adriano-aj\\sistema-de-emprestimo---biblioteca\\classes\\bancodados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:classes\\bancodados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|c:\\users\\aluno\\downloads\\adriano-aj\\sistema-de-emprestimo---biblioteca\\forms\\emprestimo\\frmconsultaremprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:forms\\emprestimo\\frmconsultaremprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|c:\\users\\aluno\\downloads\\adriano-aj\\sistema-de-emprestimo---biblioteca\\forms\\livros\\frmcadastralivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:forms\\livros\\frmcadastralivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|c:\\users\\aluno\\downloads\\adriano-aj\\sistema-de-emprestimo---biblioteca\\forms\\associados\\frmcadastraassociado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:forms\\associados\\frmcadastraassociado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|c:\\users\\aluno\\downloads\\adriano-aj\\sistema-de-emprestimo---biblioteca\\forms\\associados\\frmcadastraassociado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|c:\\users\\alexa\\source\\repos\\sistema-de-emprestimo---biblioteca\\forms\\associados\\frmcadastraassociado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:forms\\associados\\frmcadastraassociado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|c:\\users\\aluno\\downloads\\adriano-aj\\sistema-de-emprestimo---biblioteca\\forms\\associados\\frmcadastrarassociado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:forms\\associados\\frmcadastrarassociado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|c:\\users\\alexa\\source\\repos\\sistema-de-emprestimo---biblioteca\\forms\\associados\\frmdeletarassociados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:forms\\associados\\frmdeletarassociados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|c:\\users\\aluno\\downloads\\adriano-aj\\sistema-de-emprestimo---biblioteca\\forms\\livros\\frmcadastralivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:forms\\livros\\frmcadastralivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|c:\\users\\aluno\\downloads\\adriano-aj\\sistema-de-emprestimo---biblioteca\\classes\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:classes\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|C:\\Users\\aluno\\Downloads\\Adriano-AJ\\Sistema-de-Emprestimo---Biblioteca\\forms\\emprestimo\\frmconsultaremprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:forms\\emprestimo\\frmconsultaremprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|c:\\users\\aluno\\downloads\\adriano-aj\\sistema-de-emprestimo---biblioteca\\forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|c:\\users\\aluno\\downloads\\adriano-aj\\sistema-de-emprestimo---biblioteca\\classes\\associados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:classes\\associados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|C:\\Users\\aluno\\Downloads\\Adriano-AJ\\Sistema-de-Emprestimo---Biblioteca\\forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|c:\\users\\aluno\\downloads\\adriano-aj\\sistema-de-emprestimo---biblioteca\\classes\\emprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:classes\\emprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\associados\\frmdeletarassociados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:forms\\associados\\frmdeletarassociados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,201 +38,70 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "frmCadastraAssociado.cs",
-              "DocumentMoniker": "C:\\Users\\aluno\\Downloads\\Adriano-AJ\\Sistema-de-Emprestimo---Biblioteca\\forms\\Associados\\frmCadastraAssociado.cs",
-              "RelativeDocumentMoniker": "forms\\Associados\\frmCadastraAssociado.cs",
-              "ToolTip": "C:\\Users\\aluno\\Downloads\\Adriano-AJ\\Sistema-de-Emprestimo---Biblioteca\\forms\\Associados\\frmCadastraAssociado.cs",
-              "RelativeToolTip": "forms\\Associados\\frmCadastraAssociado.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwC4AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T23:47:27.616Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "frmCadastraAssociado.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\aluno\\Downloads\\Adriano-AJ\\Sistema-de-Emprestimo---Biblioteca\\forms\\Associados\\frmCadastraAssociado.cs",
-              "RelativeDocumentMoniker": "forms\\Associados\\frmCadastraAssociado.cs",
-              "ToolTip": "C:\\Users\\aluno\\Downloads\\Adriano-AJ\\Sistema-de-Emprestimo---Biblioteca\\forms\\Associados\\frmCadastraAssociado.cs [Projeto]",
-              "RelativeToolTip": "forms\\Associados\\frmCadastraAssociado.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T23:47:25.849Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmNovoEmprestimo.cs",
-              "DocumentMoniker": "C:\\Users\\aluno\\Downloads\\Adriano-AJ\\Sistema-de-Emprestimo---Biblioteca\\forms\\Emprestimo\\frmNovoEmprestimo.cs",
-              "RelativeDocumentMoniker": "forms\\Emprestimo\\frmNovoEmprestimo.cs",
-              "ToolTip": "C:\\Users\\aluno\\Downloads\\Adriano-AJ\\Sistema-de-Emprestimo---Biblioteca\\forms\\Emprestimo\\frmNovoEmprestimo.cs",
-              "RelativeToolTip": "forms\\Emprestimo\\frmNovoEmprestimo.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAADwvzEAAAAvAAAAAAAAAA==",
+              "Title": "frmDeletaLivro.cs",
+              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Livros\\frmDeletaLivro.cs",
+              "RelativeDocumentMoniker": "forms\\Livros\\frmDeletaLivro.cs",
+              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Livros\\frmDeletaLivro.cs",
+              "RelativeToolTip": "forms\\Livros\\frmDeletaLivro.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAA5wEUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T23:04:59.445Z",
+              "WhenOpened": "2025-01-01T18:06:04.911Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BancoDados.cs",
-              "DocumentMoniker": "C:\\Users\\aluno\\Downloads\\Adriano-AJ\\Sistema-de-Emprestimo---Biblioteca\\classes\\BancoDados.cs",
-              "RelativeDocumentMoniker": "classes\\BancoDados.cs",
-              "ToolTip": "C:\\Users\\aluno\\Downloads\\Adriano-AJ\\Sistema-de-Emprestimo---Biblioteca\\classes\\BancoDados.cs",
-              "RelativeToolTip": "classes\\BancoDados.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T00:11:44.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "frmCadastrarAssociado.cs",
-              "DocumentMoniker": "C:\\Users\\aluno\\Downloads\\Adriano-AJ\\Sistema-de-Emprestimo---Biblioteca\\forms\\Associados\\frmCadastrarAssociado.cs",
-              "RelativeDocumentMoniker": "forms\\Associados\\frmCadastrarAssociado.cs",
-              "ToolTip": "C:\\Users\\aluno\\Downloads\\Adriano-AJ\\Sistema-de-Emprestimo---Biblioteca\\forms\\Associados\\frmCadastrarAssociado.cs",
-              "RelativeToolTip": "forms\\Associados\\frmCadastrarAssociado.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T23:47:14.339Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmConsultarEmprestimo.cs",
-              "DocumentMoniker": "C:\\Users\\aluno\\Downloads\\Adriano-AJ\\Sistema-de-Emprestimo---Biblioteca\\forms\\Emprestimo\\frmConsultarEmprestimo.cs",
-              "RelativeDocumentMoniker": "forms\\Emprestimo\\frmConsultarEmprestimo.cs",
-              "ToolTip": "C:\\Users\\aluno\\Downloads\\Adriano-AJ\\Sistema-de-Emprestimo---Biblioteca\\forms\\Emprestimo\\frmConsultarEmprestimo.cs",
-              "RelativeToolTip": "forms\\Emprestimo\\frmConsultarEmprestimo.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAswBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T23:21:29.401Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmNovoEmprestimo.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\aluno\\Downloads\\Adriano-AJ\\Sistema-de-Emprestimo---Biblioteca\\forms\\Emprestimo\\frmNovoEmprestimo.cs",
-              "RelativeDocumentMoniker": "forms\\Emprestimo\\frmNovoEmprestimo.cs",
-              "ToolTip": "C:\\Users\\aluno\\Downloads\\Adriano-AJ\\Sistema-de-Emprestimo---Biblioteca\\forms\\Emprestimo\\frmNovoEmprestimo.cs [Projeto]",
-              "RelativeToolTip": "forms\\Emprestimo\\frmNovoEmprestimo.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T22:37:35.906Z",
-              "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "frmCadastraLivro.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\aluno\\Downloads\\Adriano-AJ\\Sistema-de-Emprestimo---Biblioteca\\forms\\Livros\\frmCadastraLivro.cs",
-              "RelativeDocumentMoniker": "forms\\Livros\\frmCadastraLivro.cs",
-              "ToolTip": "C:\\Users\\aluno\\Downloads\\Adriano-AJ\\Sistema-de-Emprestimo---Biblioteca\\forms\\Livros\\frmCadastraLivro.cs [Projeto]",
-              "RelativeToolTip": "forms\\Livros\\frmCadastraLivro.cs [Projeto]",
+              "Title": "frmDeletarAssociados.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Associados\\frmDeletarAssociados.cs",
+              "RelativeDocumentMoniker": "forms\\Associados\\frmDeletarAssociados.cs",
+              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Associados\\frmDeletarAssociados.cs [Projeto]",
+              "RelativeToolTip": "forms\\Associados\\frmDeletarAssociados.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T00:09:16.808Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "frmCadastraLivro.cs",
-              "DocumentMoniker": "C:\\Users\\aluno\\Downloads\\Adriano-AJ\\Sistema-de-Emprestimo---Biblioteca\\forms\\Livros\\frmCadastraLivro.cs",
-              "RelativeDocumentMoniker": "forms\\Livros\\frmCadastraLivro.cs",
-              "ToolTip": "C:\\Users\\aluno\\Downloads\\Adriano-AJ\\Sistema-de-Emprestimo---Biblioteca\\forms\\Livros\\frmCadastraLivro.cs",
-              "RelativeToolTip": "forms\\Livros\\frmCadastraLivro.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAA1wCAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T00:09:19.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Livro.cs",
-              "DocumentMoniker": "C:\\Users\\aluno\\Downloads\\Adriano-AJ\\Sistema-de-Emprestimo---Biblioteca\\classes\\Livro.cs",
-              "RelativeDocumentMoniker": "classes\\Livro.cs",
-              "ToolTip": "C:\\Users\\aluno\\Downloads\\Adriano-AJ\\Sistema-de-Emprestimo---Biblioteca\\classes\\Livro.cs",
-              "RelativeToolTip": "classes\\Livro.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAA9wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T23:49:27.86Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "frmConsultarEmprestimo.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\aluno\\Downloads\\Adriano-AJ\\Sistema-de-Emprestimo---Biblioteca\\forms\\Emprestimo\\frmConsultarEmprestimo.cs",
-              "RelativeDocumentMoniker": "forms\\Emprestimo\\frmConsultarEmprestimo.cs",
-              "ToolTip": "C:\\Users\\aluno\\Downloads\\Adriano-AJ\\Sistema-de-Emprestimo---Biblioteca\\forms\\Emprestimo\\frmConsultarEmprestimo.cs [Projeto]",
-              "RelativeToolTip": "forms\\Emprestimo\\frmConsultarEmprestimo.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T23:14:51.438Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\aluno\\Downloads\\Adriano-AJ\\Sistema-de-Emprestimo---Biblioteca\\forms\\Form1.cs",
-              "RelativeDocumentMoniker": "forms\\Form1.cs",
-              "ToolTip": "C:\\Users\\aluno\\Downloads\\Adriano-AJ\\Sistema-de-Emprestimo---Biblioteca\\forms\\Form1.cs",
-              "RelativeToolTip": "forms\\Form1.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAqwDIAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T23:10:33.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Associados.cs",
-              "DocumentMoniker": "C:\\Users\\aluno\\Downloads\\Adriano-AJ\\Sistema-de-Emprestimo---Biblioteca\\classes\\Associados.cs",
-              "RelativeDocumentMoniker": "classes\\Associados.cs",
-              "ToolTip": "C:\\Users\\aluno\\Downloads\\Adriano-AJ\\Sistema-de-Emprestimo---Biblioteca\\classes\\Associados.cs",
-              "RelativeToolTip": "classes\\Associados.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T22:32:11.968Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Form1.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\aluno\\Downloads\\Adriano-AJ\\Sistema-de-Emprestimo---Biblioteca\\forms\\Form1.cs",
-              "RelativeDocumentMoniker": "forms\\Form1.cs",
-              "ToolTip": "C:\\Users\\aluno\\Downloads\\Adriano-AJ\\Sistema-de-Emprestimo---Biblioteca\\forms\\Form1.cs [Projeto]",
-              "RelativeToolTip": "forms\\Form1.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T22:26:29.381Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Emprestimo.cs",
-              "DocumentMoniker": "C:\\Users\\aluno\\Downloads\\Adriano-AJ\\Sistema-de-Emprestimo---Biblioteca\\classes\\Emprestimo.cs",
-              "RelativeDocumentMoniker": "classes\\Emprestimo.cs",
-              "ToolTip": "C:\\Users\\aluno\\Downloads\\Adriano-AJ\\Sistema-de-Emprestimo---Biblioteca\\classes\\Emprestimo.cs",
-              "RelativeToolTip": "classes\\Emprestimo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T22:32:14.327Z"
+              "WhenOpened": "2025-01-01T18:03:38.126Z"
             }
           ]
         },
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmConsultaAssociado.cs",
+              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Associados\\frmConsultaAssociado.cs",
+              "RelativeDocumentMoniker": "forms\\Associados\\frmConsultaAssociado.cs",
+              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Associados\\frmConsultaAssociado.cs",
+              "RelativeToolTip": "forms\\Associados\\frmConsultaAssociado.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowEAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T18:18:47.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmCadastraAssociado.cs",
+              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Associados\\frmCadastraAssociado.cs",
+              "RelativeDocumentMoniker": "forms\\Associados\\frmCadastraAssociado.cs",
+              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Associados\\frmCadastraAssociado.cs",
+              "RelativeToolTip": "forms\\Associados\\frmCadastraAssociado.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAIAwwCUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T18:18:24.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmDeletarAssociados.cs",
+              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Associados\\frmDeletarAssociados.cs",
+              "RelativeDocumentMoniker": "forms\\Associados\\frmDeletarAssociados.cs",
+              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Associados\\frmDeletarAssociados.cs",
+              "RelativeToolTip": "forms\\Associados\\frmDeletarAssociados.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAowEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T18:03:43.277Z"
             }
           ]
         }

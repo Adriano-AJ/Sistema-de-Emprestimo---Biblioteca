@@ -69,7 +69,6 @@
             txtIsbnLivro.Name = "txtIsbnLivro";
             txtIsbnLivro.Size = new Size(223, 23);
             txtIsbnLivro.TabIndex = 27;
-            txtIsbnLivro.TextChanged += textBox4_TextChanged;
             // 
             // label4
             // 
@@ -188,7 +187,6 @@
             Controls.Add(btnAdicionarNovoLivro);
             Name = "frmCadastraLivro";
             Text = "frmCadastraLivro";
-            Load += frmCadastraLivro_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);

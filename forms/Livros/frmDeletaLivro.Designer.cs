@@ -33,8 +33,8 @@
             columnHeader2 = new ColumnHeader();
             columnHeader3 = new ColumnHeader();
             columnHeader4 = new ColumnHeader();
-            btnSalvarLivro = new Button();
-            button1 = new Button();
+            btnExcluirLivro = new Button();
+            btnAtualizarLista = new Button();
             SuspendLayout();
             // 
             // listLivrosCadastrados
@@ -73,31 +73,33 @@
             // 
             columnHeader4.Text = "EDITORA";
             // 
-            // btnSalvarLivro
+            // btnExcluirLivro
             // 
-            btnSalvarLivro.Location = new Point(251, 314);
-            btnSalvarLivro.Name = "btnSalvarLivro";
-            btnSalvarLivro.Size = new Size(205, 43);
-            btnSalvarLivro.TabIndex = 20;
-            btnSalvarLivro.Text = "Excluir";
-            btnSalvarLivro.UseVisualStyleBackColor = true;
+            btnExcluirLivro.Location = new Point(251, 314);
+            btnExcluirLivro.Name = "btnExcluirLivro";
+            btnExcluirLivro.Size = new Size(205, 43);
+            btnExcluirLivro.TabIndex = 20;
+            btnExcluirLivro.Text = "Excluir";
+            btnExcluirLivro.UseVisualStyleBackColor = true;
+            btnExcluirLivro.Click += btnExcluirLivro_Click;
             // 
-            // button1
+            // btnAtualizarLista
             // 
-            button1.Location = new Point(52, 314);
-            button1.Name = "button1";
-            button1.Size = new Size(193, 43);
-            button1.TabIndex = 21;
-            button1.Text = "Atualizar ";
-            button1.UseVisualStyleBackColor = true;
+            btnAtualizarLista.Location = new Point(52, 314);
+            btnAtualizarLista.Name = "btnAtualizarLista";
+            btnAtualizarLista.Size = new Size(193, 43);
+            btnAtualizarLista.TabIndex = 21;
+            btnAtualizarLista.Text = "Atualizar ";
+            btnAtualizarLista.UseVisualStyleBackColor = true;
+            btnAtualizarLista.Click += btnAtualizarLista_Click;
             // 
             // frmDeletaLivro
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(508, 396);
-            Controls.Add(button1);
-            Controls.Add(btnSalvarLivro);
+            Controls.Add(btnAtualizarLista);
+            Controls.Add(btnExcluirLivro);
             Controls.Add(listLivrosCadastrados);
             Name = "frmDeletaLivro";
             Text = "frmDeletaLivro";
@@ -111,7 +113,7 @@
         private ColumnHeader columnHeader2;
         private ColumnHeader columnHeader3;
         private ColumnHeader columnHeader4;
-        private Button btnSalvarLivro;
-        private Button button1;
+        private Button btnExcluirLivro;
+        private Button btnAtualizarLista;
     }
 }

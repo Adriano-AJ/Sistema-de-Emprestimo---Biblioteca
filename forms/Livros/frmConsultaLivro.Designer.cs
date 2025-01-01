@@ -28,20 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
+            ColumnHeader columnHeader3;
             btnBuscarLivroNome = new FontAwesome.Sharp.IconButton();
             txtConsultaNomeLivro = new TextBox();
             label1 = new Label();
             label2 = new Label();
             txtConsultaIsbnLivro = new TextBox();
             btnBuscarLivroIsbn = new FontAwesome.Sharp.IconButton();
-            label3 = new Label();
-            comboBox1 = new ComboBox();
             btnAtualizarConsultaLivro = new FontAwesome.Sharp.IconButton();
             listViewConsultaLivro = new ListView();
+            columnHeader1 = new ColumnHeader();
+            columnHeader2 = new ColumnHeader();
+            columnHeader4 = new ColumnHeader();
+            columnHeader5 = new ColumnHeader();
             btnLimparListaLivro = new FontAwesome.Sharp.IconButton();
             panel1 = new Panel();
+            columnHeader3 = new ColumnHeader();
             panel1.SuspendLayout();
             SuspendLayout();
+            // 
+            // columnHeader3
+            // 
+            columnHeader3.Text = "AUTOR";
+            columnHeader3.TextAlign = HorizontalAlignment.Center;
+            columnHeader3.Width = 100;
             // 
             // btnBuscarLivroNome
             // 
@@ -54,7 +64,7 @@
             btnBuscarLivroNome.TabIndex = 1;
             btnBuscarLivroNome.Text = "Buscar";
             btnBuscarLivroNome.UseVisualStyleBackColor = true;
-            btnBuscarLivroNome.Click += this.btnBuscarLivroNome_Click;
+            btnBuscarLivroNome.Click += btnBuscarLivroNome_Click;
             // 
             // txtConsultaNomeLivro
             // 
@@ -62,7 +72,6 @@
             txtConsultaNomeLivro.Name = "txtConsultaNomeLivro";
             txtConsultaNomeLivro.Size = new Size(255, 23);
             txtConsultaNomeLivro.TabIndex = 2;
-            
             // 
             // label1
             // 
@@ -72,7 +81,6 @@
             label1.Size = new Size(83, 15);
             label1.TabIndex = 3;
             label1.Text = "Nome do livro";
-            
             // 
             // label2
             // 
@@ -82,7 +90,6 @@
             label2.Size = new Size(72, 15);
             label2.TabIndex = 6;
             label2.Text = "Isbn do livro";
-            
             // 
             // txtConsultaIsbnLivro
             // 
@@ -90,7 +97,6 @@
             txtConsultaIsbnLivro.Name = "txtConsultaIsbnLivro";
             txtConsultaIsbnLivro.Size = new Size(255, 23);
             txtConsultaIsbnLivro.TabIndex = 5;
-            
             // 
             // btnBuscarLivroIsbn
             // 
@@ -103,26 +109,7 @@
             btnBuscarLivroIsbn.TabIndex = 4;
             btnBuscarLivroIsbn.Text = "Buscar";
             btnBuscarLivroIsbn.UseVisualStyleBackColor = true;
-            
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(26, 126);
-            label3.Name = "label3";
-            label3.Size = new Size(98, 15);
-            label3.TabIndex = 9;
-            label3.Text = "Busque por filtro:";
-            
-            // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(130, 123);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(232, 23);
-            comboBox1.TabIndex = 8;
-            
+            btnBuscarLivroIsbn.Click += btnBuscarLivroIsbn_Click;
             // 
             // btnAtualizarConsultaLivro
             // 
@@ -135,9 +122,12 @@
             btnAtualizarConsultaLivro.TabIndex = 10;
             btnAtualizarConsultaLivro.Text = "Atualizar";
             btnAtualizarConsultaLivro.UseVisualStyleBackColor = true;
+            btnAtualizarConsultaLivro.Click += btnAtualizarConsultaLivro_Click;
+
             // 
             // listViewConsultaLivro
             // 
+            listViewConsultaLivro.Columns.AddRange(new ColumnHeader[] { columnHeader1, columnHeader2, columnHeader3, columnHeader4, columnHeader5 });
             listViewConsultaLivro.Cursor = Cursors.Hand;
             listViewConsultaLivro.FullRowSelect = true;
             listViewConsultaLivro.GridLines = true;
@@ -150,6 +140,27 @@
             listViewConsultaLivro.UseCompatibleStateImageBehavior = false;
             listViewConsultaLivro.View = View.Details;
             // 
+            // columnHeader1
+            // 
+            columnHeader1.Text = "ID";
+            columnHeader1.Width = 40;
+            // 
+            // columnHeader2
+            // 
+            columnHeader2.Text = "TITULO";
+            columnHeader2.TextAlign = HorizontalAlignment.Center;
+            columnHeader2.Width = 200;
+            // 
+            // columnHeader4
+            // 
+            columnHeader4.Text = "EDITORA";
+            columnHeader4.TextAlign = HorizontalAlignment.Center;
+            // 
+            // columnHeader5
+            // 
+            columnHeader5.Text = "ISBN";
+            columnHeader5.TextAlign = HorizontalAlignment.Center;
+            // 
             // btnLimparListaLivro
             // 
             btnLimparListaLivro.IconChar = FontAwesome.Sharp.IconChar.None;
@@ -161,15 +172,13 @@
             btnLimparListaLivro.TabIndex = 12;
             btnLimparListaLivro.Text = "Limpar Lista";
             btnLimparListaLivro.UseVisualStyleBackColor = true;
-          
+            btnLimparListaLivro.Click += btnLimparListaLivro_Click;
             // 
             // panel1
             // 
             panel1.BackColor = SystemColors.ControlLightLight;
-            panel1.Controls.Add(label3);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(txtConsultaIsbnLivro);
-            panel1.Controls.Add(comboBox1);
             panel1.Controls.Add(btnBuscarLivroIsbn);
             panel1.Controls.Add(label2);
             panel1.Controls.Add(txtConsultaNomeLivro);
@@ -202,11 +211,13 @@
         private Label label2;
         private TextBox txtConsultaIsbnLivro;
         private FontAwesome.Sharp.IconButton btnBuscarLivroIsbn;
-        private Label label3;
-        private ComboBox comboBox1;
         private FontAwesome.Sharp.IconButton btnAtualizarConsultaLivro;
         private ListView listViewConsultaLivro;
         private FontAwesome.Sharp.IconButton btnLimparListaLivro;
         private Panel panel1;
+        private ColumnHeader columnHeader1;
+        private ColumnHeader columnHeader2;
+        private ColumnHeader columnHeader4;
+        private ColumnHeader columnHeader5;
     }
 }
