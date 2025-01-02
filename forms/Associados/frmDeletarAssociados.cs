@@ -64,7 +64,32 @@ namespace Sistema_de_Emprestimo___Biblioteca.forms.Associados
 
         private void frmDeletarAssociados_Load(object sender, EventArgs e)
         {
-            AtualizarListaAssociados();
+           
+        }
+
+        private void btnBuscarAssociadoDeletar_Click(object sender, EventArgs e)
+        {
+            if (!long.TryParse(txtConsultacpfAssociadoDeletar.Text, out var cpfBusca))
+            {
+                MessageBox.Show("Por favor, insira um CPF válido.", "Erro de Validação", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            var associadoEncontrado = BancoDados.Associado.FirstOrDefault(Associados => Associados.CPF == Convert.ToString(cpfBusca));
+
+            listAssociadosCadastrados.Items.Clear();
+            if (associadoEncontrado != null)
+            {
+                ListViewItem item = new ListViewItem(associadoEncontrado.Id.ToString());
+                item.SubItems.Add(associadoEncontrado.Nome);
+                item.SubItems.Add(associadoEncontrado.CPF);
+                listAssociadosCadastrados.Items.Add(item);
+            }
+            else
+            {
+                MessageBox.Show("Nenhum associado encontrado com o CPF informado.", "Resultados da Busca", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
         }
     }
 }

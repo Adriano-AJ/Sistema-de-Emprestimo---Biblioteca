@@ -15,7 +15,7 @@ namespace Sistema_de_Emprestimo___Biblioteca
         public frmDeletaLivro()
         {
             InitializeComponent();
-            AtualizarListaLivros();
+            
 
         }
 
@@ -74,6 +74,34 @@ namespace Sistema_de_Emprestimo___Biblioteca
         {
             // Atualiza a lista de livros ao carregar o formulário
             AtualizarListaLivros();
+        }
+
+        private void btnBuscarLivroDeletar_Click(object sender, EventArgs e)
+        {
+            if (!long.TryParse(txtConsultaisbnAssociadoDeletar.Text, out long isbnBusca))
+            {
+                MessageBox.Show("Por favor, insira um ISBN válido.", "Erro de Validação", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // Busca por ISBN
+            var livroEncontrado = BancoDados.livros.FirstOrDefault(livro => livro.Isbn == isbnBusca);
+
+            listLivrosCadastrados.Items.Clear();
+            if (livroEncontrado != null)
+            {
+
+                ListViewItem item = new ListViewItem(livroEncontrado.Id.ToString());
+                item.SubItems.Add(livroEncontrado.Titulo);
+                item.SubItems.Add(livroEncontrado.Autor);
+                item.SubItems.Add(livroEncontrado.Editora);
+                item.SubItems.Add(livroEncontrado.Isbn.ToString());
+                listLivrosCadastrados.Items.Add(item);
+            }
+            else
+            {
+                MessageBox.Show("Nenhum livro encontrado com o ISBN informado.", "Resultados da Busca", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
     }
 }

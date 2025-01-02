@@ -35,6 +35,9 @@
             columnHeader4 = new ColumnHeader();
             btnExcluirLivro = new Button();
             btnAtualizarLista = new Button();
+            label1 = new Label();
+            txtConsultaisbnAssociadoDeletar = new TextBox();
+            btnBuscarLivroDeletar = new FontAwesome.Sharp.IconButton();
             SuspendLayout();
             // 
             // listLivrosCadastrados
@@ -45,9 +48,9 @@
             listLivrosCadastrados.GridLines = true;
             listLivrosCadastrados.HeaderStyle = ColumnHeaderStyle.Nonclickable;
             listLivrosCadastrados.HoverSelection = true;
-            listLivrosCadastrados.Location = new Point(52, 31);
+            listLivrosCadastrados.Location = new Point(52, 67);
             listLivrosCadastrados.Name = "listLivrosCadastrados";
-            listLivrosCadastrados.Size = new Size(404, 277);
+            listLivrosCadastrados.Size = new Size(404, 238);
             listLivrosCadastrados.TabIndex = 19;
             listLivrosCadastrados.UseCompatibleStateImageBehavior = false;
             listLivrosCadastrados.View = View.Details;
@@ -93,17 +96,50 @@
             btnAtualizarLista.UseVisualStyleBackColor = true;
             btnAtualizarLista.Click += btnAtualizarLista_Click;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(78, 9);
+            label1.Name = "label1";
+            label1.Size = new Size(78, 15);
+            label1.TabIndex = 30;
+            label1.Text = "ISBN do Livro";
+            // 
+            // txtConsultaisbnAssociadoDeletar
+            // 
+            txtConsultaisbnAssociadoDeletar.Location = new Point(78, 27);
+            txtConsultaisbnAssociadoDeletar.Name = "txtConsultaisbnAssociadoDeletar";
+            txtConsultaisbnAssociadoDeletar.Size = new Size(255, 23);
+            txtConsultaisbnAssociadoDeletar.TabIndex = 29;
+            // 
+            // btnBuscarLivroDeletar
+            // 
+            btnBuscarLivroDeletar.IconChar = FontAwesome.Sharp.IconChar.None;
+            btnBuscarLivroDeletar.IconColor = Color.Black;
+            btnBuscarLivroDeletar.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btnBuscarLivroDeletar.Location = new Point(339, 27);
+            btnBuscarLivroDeletar.Name = "btnBuscarLivroDeletar";
+            btnBuscarLivroDeletar.Size = new Size(75, 23);
+            btnBuscarLivroDeletar.TabIndex = 28;
+            btnBuscarLivroDeletar.Text = "Buscar";
+            btnBuscarLivroDeletar.UseVisualStyleBackColor = true;
+            btnBuscarLivroDeletar.Click += btnBuscarLivroDeletar_Click;
+            // 
             // frmDeletaLivro
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(508, 396);
+            Controls.Add(label1);
+            Controls.Add(txtConsultaisbnAssociadoDeletar);
+            Controls.Add(btnBuscarLivroDeletar);
             Controls.Add(btnAtualizarLista);
             Controls.Add(btnExcluirLivro);
             Controls.Add(listLivrosCadastrados);
             Name = "frmDeletaLivro";
             Text = "frmDeletaLivro";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -115,5 +151,8 @@
         private ColumnHeader columnHeader4;
         private Button btnExcluirLivro;
         private Button btnAtualizarLista;
+        private Label label1;
+        private TextBox txtConsultaisbnAssociadoDeletar;
+        private FontAwesome.Sharp.IconButton btnBuscarLivroDeletar;
     }
 }

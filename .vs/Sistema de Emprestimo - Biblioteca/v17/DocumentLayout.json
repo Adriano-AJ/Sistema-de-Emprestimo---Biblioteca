@@ -7,19 +7,19 @@
       "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:forms\\livros\\frmdeletalivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|c:\\users\\alexa\\source\\repos\\sistema-de-emprestimo---biblioteca\\forms\\livros\\frmconsultalivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:forms\\livros\\frmconsultalivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|c:\\users\\alexa\\source\\repos\\sistema-de-emprestimo---biblioteca\\forms\\associados\\frmconsultaassociado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:forms\\associados\\frmconsultaassociado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|c:\\users\\alexa\\source\\repos\\sistema-de-emprestimo---biblioteca\\forms\\associados\\frmcadastraassociado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:forms\\associados\\frmcadastraassociado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|c:\\users\\alexa\\source\\repos\\sistema-de-emprestimo---biblioteca\\forms\\livros\\frmdeletalivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:forms\\livros\\frmdeletalivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|c:\\users\\alexa\\source\\repos\\sistema-de-emprestimo---biblioteca\\forms\\associados\\frmdeletarassociados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:forms\\associados\\frmdeletarassociados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\associados\\frmdeletarassociados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|c:\\users\\alexa\\source\\repos\\sistema-de-emprestimo---biblioteca\\forms\\associados\\frmdeletarassociados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:forms\\associados\\frmdeletarassociados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -38,17 +38,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmDeletaLivro.cs",
-              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Livros\\frmDeletaLivro.cs",
-              "RelativeDocumentMoniker": "forms\\Livros\\frmDeletaLivro.cs",
-              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Livros\\frmDeletaLivro.cs",
-              "RelativeToolTip": "forms\\Livros\\frmDeletaLivro.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAA5wEUAAAANAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "frmConsultaLivro.cs",
+              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Livros\\frmConsultaLivro.cs",
+              "RelativeDocumentMoniker": "forms\\Livros\\frmConsultaLivro.cs",
+              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Livros\\frmConsultaLivro.cs",
+              "RelativeToolTip": "forms\\Livros\\frmConsultaLivro.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowE0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T18:06:04.911Z",
+              "WhenOpened": "2025-01-02T22:36:03.043Z",
               "EditorCaption": ""
             },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmConsultaAssociado.cs",
+              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Associados\\frmConsultaAssociado.cs",
+              "RelativeDocumentMoniker": "forms\\Associados\\frmConsultaAssociado.cs",
+              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Associados\\frmConsultaAssociado.cs",
+              "RelativeToolTip": "forms\\Associados\\frmConsultaAssociado.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowFQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T22:18:48.48Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -58,50 +77,33 @@
               "ToolTip": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Associados\\frmDeletarAssociados.cs [Projeto]",
               "RelativeToolTip": "forms\\Associados\\frmDeletarAssociados.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T18:03:38.126Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
+              "WhenOpened": "2025-01-02T22:32:53.108Z",
+              "EditorCaption": " [Projeto]"
+            },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmConsultaAssociado.cs",
-              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Associados\\frmConsultaAssociado.cs",
-              "RelativeDocumentMoniker": "forms\\Associados\\frmConsultaAssociado.cs",
-              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Associados\\frmConsultaAssociado.cs",
-              "RelativeToolTip": "forms\\Associados\\frmConsultaAssociado.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAowEAAAAA6AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "frmDeletaLivro.cs",
+              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Livros\\frmDeletaLivro.cs",
+              "RelativeDocumentMoniker": "forms\\Livros\\frmDeletaLivro.cs",
+              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Livros\\frmDeletaLivro.cs",
+              "RelativeToolTip": "forms\\Livros\\frmDeletaLivro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T18:18:47.117Z",
+              "WhenOpened": "2025-01-02T22:32:33.306Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmCadastraAssociado.cs",
-              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Associados\\frmCadastraAssociado.cs",
-              "RelativeDocumentMoniker": "forms\\Associados\\frmCadastraAssociado.cs",
-              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Associados\\frmCadastraAssociado.cs",
-              "RelativeToolTip": "forms\\Associados\\frmCadastraAssociado.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAIAwwCUAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T18:18:24.274Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "frmDeletarAssociados.cs",
-              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Associados\\frmDeletarAssociados.cs",
-              "RelativeDocumentMoniker": "forms\\Associados\\frmDeletarAssociados.cs",
-              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Associados\\frmDeletarAssociados.cs",
-              "RelativeToolTip": "forms\\Associados\\frmDeletarAssociados.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAowEYAAAAAAAAAAAAAAA==",
+              "Title": "frmDeletaLivro.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Livros\\frmDeletaLivro.cs",
+              "RelativeDocumentMoniker": "forms\\Livros\\frmDeletaLivro.cs",
+              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Livros\\frmDeletaLivro.cs [Projeto]",
+              "RelativeToolTip": "forms\\Livros\\frmDeletaLivro.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T18:03:43.277Z"
+              "WhenOpened": "2025-01-02T22:32:24.644Z",
+              "EditorCaption": " [Projeto]"
             }
           ]
         }
