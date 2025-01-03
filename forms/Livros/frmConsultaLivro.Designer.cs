@@ -123,7 +123,6 @@
             btnAtualizarConsultaLivro.Text = "Atualizar";
             btnAtualizarConsultaLivro.UseVisualStyleBackColor = true;
             btnAtualizarConsultaLivro.Click += btnAtualizarConsultaLivro_Click;
-
             // 
             // listViewConsultaLivro
             // 

@@ -6,14 +6,15 @@ using System.Threading.Tasks;
 
 namespace Sistema_de_Emprestimo___Biblioteca
 {
-    internal class Emprestimo
+    internal class Emprestimos
     {
+        private static int _idCounter = 0;
         private int _id;
         private DateTime _dataEmprestimo;
         private DateTime _dataDevolucao;
         private string _status;
 
-        public int Id { get { return _id; } set { _id = value; } }
+        public int Id { get { return _id; } }
 
         public DateTime DateDevolucao { get { return _dataDevolucao; } set { } }
 
@@ -23,19 +24,19 @@ namespace Sistema_de_Emprestimo___Biblioteca
 
         //Metodos
 
-        public bool EfetivarEmprestimo()
-        {
-            return true;
-        }
+        private Emprestimos() { }
 
-        public bool EfetivarDevolucao()
+        public static Emprestimos CriarEmprestimo(DateTime dataEmprestimo, DateTime dataDevolucao, string status)
         {
-            return true;
-        }
+            var emprestimo = new Emprestimos
+            {
+                _id = ++_idCounter,
+                _dataEmprestimo = dataEmprestimo,
+                _dataDevolucao = dataDevolucao,
+                _status = status
+            };
 
-        public string ImprimirReserva()
-        {
-            return "livro";
+            return emprestimo;
         }
     }
 }

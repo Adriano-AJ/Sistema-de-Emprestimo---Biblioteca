@@ -28,20 +28,37 @@
         /// </summary>
         private void InitializeComponent()
         {
+            ColumnHeader columnHeader11;
+            ColumnHeader columnHeader2;
             label2 = new Label();
             label1 = new Label();
             txtCpfAssociadoEmprestimo = new TextBox();
-            button1 = new Button();
-            listLivroEmprestimo = new ListView();
-            columnHeader1 = new ColumnHeader();
-            columnHeader2 = new ColumnHeader();
-            columnHeader3 = new ColumnHeader();
-            columnHeader4 = new ColumnHeader();
+            btnEfetivarEnprestimo = new Button();
             label3 = new Label();
             txtBuscaLivro = new TextBox();
             label4 = new Label();
             dateSelect = new DateTimePicker();
+            listViewConsultaLivro = new ListView();
+            columnHeader10 = new ColumnHeader();
+            columnHeader12 = new ColumnHeader();
+            columnHeader13 = new ColumnHeader();
+            listLivrosSelecionados = new ListView();
+            columnHeader1 = new ColumnHeader();
+            columnHeader3 = new ColumnHeader();
+            columnHeader4 = new ColumnHeader();
+            columnHeader11 = new ColumnHeader();
+            columnHeader2 = new ColumnHeader();
             SuspendLayout();
+            // 
+            // columnHeader11
+            // 
+            columnHeader11.Text = "AUTOR";
+            columnHeader11.TextAlign = HorizontalAlignment.Center;
+            // 
+            // columnHeader2
+            // 
+            columnHeader2.Text = "AUTOR";
+            columnHeader2.TextAlign = HorizontalAlignment.Center;
             // 
             // label2
             // 
@@ -67,41 +84,15 @@
             txtCpfAssociadoEmprestimo.Size = new Size(100, 23);
             txtCpfAssociadoEmprestimo.TabIndex = 7;
             // 
-            // button1
+            // btnEfetivarEnprestimo
             // 
-            button1.Location = new Point(54, 88);
-            button1.Name = "button1";
-            button1.Size = new Size(165, 48);
-            button1.TabIndex = 9;
-            button1.Text = "Efetivar Emprestimo";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
-            // 
-            // listLivroEmprestimo
-            // 
-            listLivroEmprestimo.Columns.AddRange(new ColumnHeader[] { columnHeader1, columnHeader2, columnHeader3, columnHeader4 });
-            listLivroEmprestimo.Location = new Point(254, 41);
-            listLivroEmprestimo.Name = "listLivroEmprestimo";
-            listLivroEmprestimo.Size = new Size(232, 233);
-            listLivroEmprestimo.TabIndex = 12;
-            listLivroEmprestimo.UseCompatibleStateImageBehavior = false;
-            listLivroEmprestimo.View = View.Details;
-            // 
-            // columnHeader1
-            // 
-            columnHeader1.Text = "Nome";
-            // 
-            // columnHeader2
-            // 
-            columnHeader2.Text = "Isbn";
-            // 
-            // columnHeader3
-            // 
-            columnHeader3.Text = "Autor";
-            // 
-            // columnHeader4
-            // 
-            columnHeader4.Text = "Editora";
+            btnEfetivarEnprestimo.Location = new Point(65, 76);
+            btnEfetivarEnprestimo.Name = "btnEfetivarEnprestimo";
+            btnEfetivarEnprestimo.Size = new Size(165, 48);
+            btnEfetivarEnprestimo.TabIndex = 9;
+            btnEfetivarEnprestimo.Text = "Efetivar Emprestimo";
+            btnEfetivarEnprestimo.UseVisualStyleBackColor = true;
+            btnEfetivarEnprestimo.Click += btnEfetivarEnprestimo_Click;
             // 
             // label3
             // 
@@ -137,19 +128,82 @@
             dateSelect.TabIndex = 17;
             dateSelect.ValueChanged += dateTimePicker1_ValueChanged;
             // 
+            // listViewConsultaLivro
+            // 
+            listViewConsultaLivro.Columns.AddRange(new ColumnHeader[] { columnHeader10, columnHeader11, columnHeader12, columnHeader13 });
+            listViewConsultaLivro.Cursor = Cursors.Hand;
+            listViewConsultaLivro.FullRowSelect = true;
+            listViewConsultaLivro.GridLines = true;
+            listViewConsultaLivro.HeaderStyle = ColumnHeaderStyle.Nonclickable;
+            listViewConsultaLivro.HoverSelection = true;
+            listViewConsultaLivro.Location = new Point(254, 41);
+            listViewConsultaLivro.Name = "listViewConsultaLivro";
+            listViewConsultaLivro.Size = new Size(232, 233);
+            listViewConsultaLivro.TabIndex = 19;
+            listViewConsultaLivro.UseCompatibleStateImageBehavior = false;
+            listViewConsultaLivro.View = View.Details;
+            listViewConsultaLivro.DoubleClick += listLivroEmprestimo_DoubleClick;
+            // 
+            // columnHeader10
+            // 
+            columnHeader10.Text = "TITULO";
+            columnHeader10.TextAlign = HorizontalAlignment.Center;
+            // 
+            // columnHeader12
+            // 
+            columnHeader12.Text = "EDITORA";
+            columnHeader12.TextAlign = HorizontalAlignment.Center;
+            // 
+            // columnHeader13
+            // 
+            columnHeader13.Text = "ISBN";
+            columnHeader13.TextAlign = HorizontalAlignment.Center;
+            // 
+            // listLivrosSelecionados
+            // 
+            listLivrosSelecionados.Columns.AddRange(new ColumnHeader[] { columnHeader1, columnHeader2, columnHeader3, columnHeader4 });
+            listLivrosSelecionados.Cursor = Cursors.Hand;
+            listLivrosSelecionados.FullRowSelect = true;
+            listLivrosSelecionados.GridLines = true;
+            listLivrosSelecionados.HeaderStyle = ColumnHeaderStyle.Nonclickable;
+            listLivrosSelecionados.HoverSelection = true;
+            listLivrosSelecionados.Location = new Point(12, 158);
+            listLivrosSelecionados.Name = "listLivrosSelecionados";
+            listLivrosSelecionados.Size = new Size(236, 116);
+            listLivrosSelecionados.TabIndex = 20;
+            listLivrosSelecionados.UseCompatibleStateImageBehavior = false;
+            listLivrosSelecionados.View = View.Details;
+            listLivrosSelecionados.DoubleClick += listCarrinhoLivros_DoubleClick;
+            // 
+            // columnHeader1
+            // 
+            columnHeader1.Text = "TITULO";
+            columnHeader1.TextAlign = HorizontalAlignment.Center;
+            // 
+            // columnHeader3
+            // 
+            columnHeader3.Text = "EDITORA";
+            columnHeader3.TextAlign = HorizontalAlignment.Center;
+            // 
+            // columnHeader4
+            // 
+            columnHeader4.Text = "ISBN";
+            columnHeader4.TextAlign = HorizontalAlignment.Center;
+            // 
             // frmNovoEmprestimo
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(498, 286);
+            Controls.Add(listLivrosSelecionados);
+            Controls.Add(listViewConsultaLivro);
             Controls.Add(dateSelect);
             Controls.Add(label4);
             Controls.Add(txtBuscaLivro);
             Controls.Add(label3);
-            Controls.Add(listLivroEmprestimo);
             Controls.Add(label1);
             Controls.Add(txtCpfAssociadoEmprestimo);
-            Controls.Add(button1);
+            Controls.Add(btnEfetivarEnprestimo);
             Controls.Add(label2);
             Name = "frmNovoEmprestimo";
             Text = "frmNovoEmprestimo";
@@ -161,15 +215,19 @@
         private Label label2;
         private Label label1;
         private TextBox txtCpfAssociadoEmprestimo;
-        private Button button1;
-        private ListView listLivroEmprestimo;
-        private ColumnHeader columnHeader1;
-        private ColumnHeader columnHeader2;
-        private ColumnHeader columnHeader3;
-        private ColumnHeader columnHeader4;
+        private Button btnEfetivarEnprestimo;
         private Label label3;
         private TextBox txtBuscaLivro;
         private Label label4;
         private DateTimePicker dateSelect;
+        private ListView listViewConsultaLivro;
+        private ColumnHeader columnHeader9;
+        private ColumnHeader columnHeader10;
+        private ColumnHeader columnHeader12;
+        private ColumnHeader columnHeader13;
+        private ListView listLivrosSelecionados;
+        private ColumnHeader columnHeader1;
+        private ColumnHeader columnHeader3;
+        private ColumnHeader columnHeader4;
     }
 }

@@ -51,5 +51,11 @@ namespace Sistema_de_Emprestimo___Biblioteca
             frmNovoEmprestimo frmNovoEmprestimo = new frmNovoEmprestimo();
             frmNovoEmprestimo.Show();
         }
+
+        private void consultarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmConsultarEmprestimo frmConsultarEmprestimo = new frmConsultarEmprestimo();
+            frmConsultarEmprestimo.Show();
+        }
     }
 }

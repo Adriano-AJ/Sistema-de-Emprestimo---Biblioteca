@@ -10,7 +10,7 @@ namespace Sistema_de_Emprestimo___Biblioteca
     {
         public static List<Livro> livros = new List<Livro>();
         public static List<Associados> Associado = new List<Associados>();
-        public static List<Emprestimo> Emprestimos = new List<Emprestimo>();
+        public static List<Emprestimos> Emprestimos = new List<Emprestimos>();
 
 
     }

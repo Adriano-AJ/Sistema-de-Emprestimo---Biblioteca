@@ -82,6 +82,7 @@
             consultarToolStripMenuItem.Name = "consultarToolStripMenuItem";
             consultarToolStripMenuItem.Size = new Size(180, 22);
             consultarToolStripMenuItem.Text = "Consultar";
+            consultarToolStripMenuItem.Click += consultarToolStripMenuItem_Click;
             // 
             // panelFormPrincipal
             // 

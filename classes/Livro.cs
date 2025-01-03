@@ -14,6 +14,7 @@ namespace Sistema_de_Emprestimo___Biblioteca
         private string _titulo;
         private string _autor;
         private string _editora;
+        private string _status;
 
         public int Id { get { return _id; } }
         public long Isbn {
@@ -74,7 +75,12 @@ namespace Sistema_de_Emprestimo___Biblioteca
             }
         }
 
-        private Livro() { }
+        public string Status { get { return _status; } set { _status = value; } }
+
+        private Livro() 
+        {
+            _status = "Disponível";
+        }
         public static Livro CriarLivro(string titulo, string autor, string editora, long isbn)
         {
             Livro livro = new Livro();
