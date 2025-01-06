@@ -110,6 +110,7 @@ namespace Sistema_de_Emprestimo___Biblioteca.forms.Emprestimo
 
         private void btnDevolver_Click(object sender, EventArgs e)
         {
+            MessageBox.Show(dateSelectConsultar.Value.ToString());
             if (listEmprestimoAssociado.SelectedItems.Count == 0)
             {
                 MessageBox.Show("Selecione um empréstimo para devolução.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -119,7 +120,7 @@ namespace Sistema_de_Emprestimo___Biblioteca.forms.Emprestimo
             var selectedItem = listEmprestimoAssociado.SelectedItems[0];
             int emprestimoId = int.Parse(selectedItem.SubItems[0].Text);
 
-            string resultado = Emprestimos.EfetuarDevolucao(emprestimoId, DateTime.Now);
+            string resultado = Emprestimos.EfetuarDevolucao(emprestimoId, dateSelectConsultar.Value);
             MessageBox.Show(resultado, "Devolução", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             // Atualiza a lista de empréstimos
@@ -155,7 +156,7 @@ namespace Sistema_de_Emprestimo___Biblioteca.forms.Emprestimo
 
                 // Buscar associado pelo CPF
                 var associado = BancoDados.Associado.FirstOrDefault(a => a.CPF == cpfAssociado);
-                
+
                 if (associado == null)
                 {
                     MessageBox.Show("Associado não encontrado.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -214,6 +215,17 @@ namespace Sistema_de_Emprestimo___Biblioteca.forms.Emprestimo
                 btnDevolver.Enabled = true;  // Permite devolução
                 btnPagarMulta.Enabled = false; // Bloqueia pagamento
             }
+        }
+
+        private void dateSelectConsultar_ValueChanged(object sender, EventArgs e)
+        {
+            DateTime dataSelecionada = dateSelectConsultar.Value;
+
+
+
+            Emprestimos.CalcularMulta(dateSelectConsultar);
+
+
         }
     }
 }

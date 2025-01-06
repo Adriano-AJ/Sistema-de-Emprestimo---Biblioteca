@@ -27,7 +27,7 @@ namespace Sistema_de_Emprestimo___Biblioteca
         // Método para calcular multa com base no atraso
         public static decimal CalcularMulta(DateTime dataPrevistaDevolucao, DateTime dataRealDevolucao)
         {
-            const decimal valorPorDia = 5.00m; // Valor da multa por dia de atraso
+            const decimal valorPorDia = 5; // Valor da multa por dia de atraso
             int diasAtraso = (dataRealDevolucao - dataPrevistaDevolucao).Days;
 
             return diasAtraso > 0 ? diasAtraso * valorPorDia : 0.00m;

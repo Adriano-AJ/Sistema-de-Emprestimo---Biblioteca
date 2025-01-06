@@ -73,14 +73,14 @@
             // novoToolStripMenuItem
             // 
             novoToolStripMenuItem.Name = "novoToolStripMenuItem";
-            novoToolStripMenuItem.Size = new Size(180, 22);
+            novoToolStripMenuItem.Size = new Size(125, 22);
             novoToolStripMenuItem.Text = "Novo";
             novoToolStripMenuItem.Click += novoToolStripMenuItem_Click;
             // 
             // consultarToolStripMenuItem
             // 
             consultarToolStripMenuItem.Name = "consultarToolStripMenuItem";
-            consultarToolStripMenuItem.Size = new Size(180, 22);
+            consultarToolStripMenuItem.Size = new Size(125, 22);
             consultarToolStripMenuItem.Text = "Consultar";
             consultarToolStripMenuItem.Click += consultarToolStripMenuItem_Click;
             // 
@@ -93,6 +93,7 @@
             panelFormPrincipal.Name = "panelFormPrincipal";
             panelFormPrincipal.Size = new Size(800, 454);
             panelFormPrincipal.TabIndex = 7;
+            panelFormPrincipal.Paint += panelFormPrincipal_Paint;
             // 
             // Form1
             // 

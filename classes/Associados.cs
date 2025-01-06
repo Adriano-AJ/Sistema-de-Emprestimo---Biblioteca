@@ -112,8 +112,6 @@ namespace Sistema_de_Emprestimo___Biblioteca
             }
         }
 
-        private Associados() { }
-        //Construtor
         public static Associados CriarAssociado(string nome, string cpf, string sexo, string logradouro, string cidade, string estado, string pais)
         {
             Associados associado = new Associados();
@@ -130,8 +128,6 @@ namespace Sistema_de_Emprestimo___Biblioteca
             return associado;
 
         }
-
-        //Metodos
 
        
 

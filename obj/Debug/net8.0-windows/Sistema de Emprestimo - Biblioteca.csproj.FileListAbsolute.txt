@@ -87,3 +87,34 @@ C:\Users\aluno\Downloads\Adriano-AJ\Sistema-de-Emprestimo---Biblioteca\obj\Debug
 C:\Users\aluno\Downloads\Adriano-AJ\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.forms.Emprestimo.frmConsultarEmprestimo.resources
 C:\Users\alexa\Source\Repos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.forms.Emprestimo.frmConsultarEmprestimo.resources
 C:\Users\alexa\Source\Repos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.forms.Emprestimo.frmNovoEmprestimo.resources
+C:\Users\junin\OneDrive\Área de Trabalho\projetos\Sistema-de-Emprestimo---Biblioteca\bin\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.exe
+C:\Users\junin\OneDrive\Área de Trabalho\projetos\Sistema-de-Emprestimo---Biblioteca\bin\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.deps.json
+C:\Users\junin\OneDrive\Área de Trabalho\projetos\Sistema-de-Emprestimo---Biblioteca\bin\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.runtimeconfig.json
+C:\Users\junin\OneDrive\Área de Trabalho\projetos\Sistema-de-Emprestimo---Biblioteca\bin\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.dll
+C:\Users\junin\OneDrive\Área de Trabalho\projetos\Sistema-de-Emprestimo---Biblioteca\bin\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.pdb
+C:\Users\junin\OneDrive\Área de Trabalho\projetos\Sistema-de-Emprestimo---Biblioteca\bin\Debug\net8.0-windows\FontAwesome.Sharp.dll
+C:\Users\junin\OneDrive\Área de Trabalho\projetos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.csproj.AssemblyReference.cache
+C:\Users\junin\OneDrive\Área de Trabalho\projetos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.frmCadastraAssociado.resources
+C:\Users\junin\OneDrive\Área de Trabalho\projetos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.frmPageAssociado.resources
+C:\Users\junin\OneDrive\Área de Trabalho\projetos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.forms.Associados.frmConsultaAssociado.resources
+C:\Users\junin\OneDrive\Área de Trabalho\projetos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.forms.Associados.frmDeletarAssociados.resources
+C:\Users\junin\OneDrive\Área de Trabalho\projetos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.forms.Emprestimo.frmConsultarEmprestimo.resources
+C:\Users\junin\OneDrive\Área de Trabalho\projetos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.forms.Emprestimo.frmNovoEmprestimo.resources
+C:\Users\junin\OneDrive\Área de Trabalho\projetos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.Form1.resources
+C:\Users\junin\OneDrive\Área de Trabalho\projetos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.frmCadastraLivro.resources
+C:\Users\junin\OneDrive\Área de Trabalho\projetos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.frmConsultaLivro.resources
+C:\Users\junin\OneDrive\Área de Trabalho\projetos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.frmDeletaLivro.resources
+C:\Users\junin\OneDrive\Área de Trabalho\projetos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.frmPageLivro.resources
+C:\Users\junin\OneDrive\Área de Trabalho\projetos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema_de_Emprestimo___Biblioteca.Properties.Resources.resources
+C:\Users\junin\OneDrive\Área de Trabalho\projetos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.csproj.GenerateResource.cache
+C:\Users\junin\OneDrive\Área de Trabalho\projetos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\junin\OneDrive\Área de Trabalho\projetos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.AssemblyInfoInputs.cache
+C:\Users\junin\OneDrive\Área de Trabalho\projetos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.AssemblyInfo.cs
+C:\Users\junin\OneDrive\Área de Trabalho\projetos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\junin\OneDrive\Área de Trabalho\projetos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.sourcelink.json
+C:\Users\junin\OneDrive\Área de Trabalho\projetos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema .103696DB.Up2Date
+C:\Users\junin\OneDrive\Área de Trabalho\projetos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.dll
+C:\Users\junin\OneDrive\Área de Trabalho\projetos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\refint\Sistema de Emprestimo - Biblioteca.dll
+C:\Users\junin\OneDrive\Área de Trabalho\projetos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.pdb
+C:\Users\junin\OneDrive\Área de Trabalho\projetos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\Sistema de Emprestimo - Biblioteca.genruntimeconfig.cache
+C:\Users\junin\OneDrive\Área de Trabalho\projetos\Sistema-de-Emprestimo---Biblioteca\obj\Debug\net8.0-windows\ref\Sistema de Emprestimo - Biblioteca.dll

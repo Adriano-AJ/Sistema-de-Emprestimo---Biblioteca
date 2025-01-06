@@ -41,24 +41,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alexa\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\junin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alexa\\Source\\Repos\\Sistema-de-Emprestimo---Biblioteca\\Sistema de Emprestimo - Biblioteca.csproj",
+      "projectUniqueName": "C:\\Users\\junin\\OneDrive\\Área de Trabalho\\projetos\\Sistema-de-Emprestimo---Biblioteca\\Sistema de Emprestimo - Biblioteca.csproj",
       "projectName": "Sistema de Emprestimo - Biblioteca",
-      "projectPath": "C:\\Users\\alexa\\Source\\Repos\\Sistema-de-Emprestimo---Biblioteca\\Sistema de Emprestimo - Biblioteca.csproj",
-      "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alexa\\Source\\Repos\\Sistema-de-Emprestimo---Biblioteca\\obj\\",
+      "projectPath": "C:\\Users\\junin\\OneDrive\\Área de Trabalho\\projetos\\Sistema-de-Emprestimo---Biblioteca\\Sistema de Emprestimo - Biblioteca.csproj",
+      "packagesPath": "C:\\Users\\junin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\junin\\OneDrive\\Área de Trabalho\\projetos\\Sistema-de-Emprestimo---Biblioteca\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\alexa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\junin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -83,8 +78,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+      }
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -114,7 +108,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

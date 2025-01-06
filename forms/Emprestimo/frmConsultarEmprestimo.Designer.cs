@@ -46,6 +46,9 @@
             label3 = new Label();
             label4 = new Label();
             txtIdEmprestimo = new TextBox();
+            lblDate = new Label();
+            iconDropDownButton1 = new FontAwesome.Sharp.IconDropDownButton();
+            dateSelectConsultar = new DateTimePicker();
             SuspendLayout();
             // 
             // listEmprestimoAssociado
@@ -121,7 +124,7 @@
             btnDevolver.IconChar = FontAwesome.Sharp.IconChar.None;
             btnDevolver.IconColor = Color.Black;
             btnDevolver.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            btnDevolver.Location = new Point(223, 327);
+            btnDevolver.Location = new Point(223, 350);
             btnDevolver.Name = "btnDevolver";
             btnDevolver.Size = new Size(236, 40);
             btnDevolver.TabIndex = 3;
@@ -150,7 +153,7 @@
             btnPagarMulta.IconChar = FontAwesome.Sharp.IconChar.None;
             btnPagarMulta.IconColor = Color.Black;
             btnPagarMulta.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            btnPagarMulta.Location = new Point(223, 281);
+            btnPagarMulta.Location = new Point(223, 304);
             btnPagarMulta.Name = "btnPagarMulta";
             btnPagarMulta.Size = new Size(236, 40);
             btnPagarMulta.TabIndex = 6;
@@ -190,11 +193,39 @@
             txtIdEmprestimo.Size = new Size(147, 23);
             txtIdEmprestimo.TabIndex = 9;
             // 
+            // lblDate
+            // 
+            lblDate.AutoSize = true;
+            lblDate.Location = new Point(50, 363);
+            lblDate.Name = "lblDate";
+            lblDate.Size = new Size(105, 15);
+            lblDate.TabIndex = 20;
+            lblDate.Text = "Data de devolução";
+            // 
+            // iconDropDownButton1
+            // 
+            iconDropDownButton1.IconChar = FontAwesome.Sharp.IconChar.None;
+            iconDropDownButton1.IconColor = Color.Black;
+            iconDropDownButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            iconDropDownButton1.Name = "iconDropDownButton1";
+            iconDropDownButton1.Size = new Size(23, 23);
+            iconDropDownButton1.Text = "iconDropDownButton1";
+            // 
+            // dateSelectConsultar
+            // 
+            dateSelectConsultar.Location = new Point(50, 381);
+            dateSelectConsultar.Name = "dateSelectConsultar";
+            dateSelectConsultar.Size = new Size(147, 23);
+            dateSelectConsultar.TabIndex = 21;
+            dateSelectConsultar.ValueChanged += dateSelectConsultar_ValueChanged;
+            // 
             // frmConsultarEmprestimo
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(498, 407);
+            ClientSize = new Size(498, 432);
+            Controls.Add(dateSelectConsultar);
+            Controls.Add(lblDate);
             Controls.Add(label4);
             Controls.Add(txtIdEmprestimo);
             Controls.Add(label3);
@@ -232,5 +263,8 @@
         private Label label4;
         private TextBox txtIdEmprestimo;
         private ColumnHeader columnHeader8;
+        private Label lblDate;
+        private FontAwesome.Sharp.IconDropDownButton iconDropDownButton1;
+        private DateTimePicker dateSelectConsultar;
     }
 }
