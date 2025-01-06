@@ -41,6 +41,13 @@ namespace Sistema_de_Emprestimo___Biblioteca
                 autor = txtNomeAutorLivro.Text;
                 isbn = long.Parse(txtIsbnLivro.Text);
 
+                var livroExistente = BancoDados.livros.FirstOrDefault(l => l.Isbn == isbn);
+                if (livroExistente != null)
+                {
+                    MessageBox.Show("Já existe um livro cadastrado com este ISBN.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
                 Livro livro =  Livro.CriarLivro(titulo, autor, editora, isbn);
                 BancoDados.livros.Add(livro);
 

@@ -32,6 +32,12 @@ namespace Sistema_de_Emprestimo___Biblioteca
                 string pais = txtPaisAssociado.Text;
                 double multa = 0;
 
+                var associadoExistente = BancoDados.Associado.FirstOrDefault(a => a.CPF == cpf);
+                if (associadoExistente != null)
+                {
+                    MessageBox.Show("Já existe um associado cadastrado com este CPF.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
 
 
                 Associados Associados1 = Associados.CriarAssociado(nome,cpf,sexo,logradouro,cidade,estado,pais);

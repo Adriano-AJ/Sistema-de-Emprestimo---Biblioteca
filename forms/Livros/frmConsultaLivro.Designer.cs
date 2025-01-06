@@ -43,6 +43,7 @@
             columnHeader5 = new ColumnHeader();
             btnLimparListaLivro = new FontAwesome.Sharp.IconButton();
             panel1 = new Panel();
+            columnHeader6 = new ColumnHeader();
             columnHeader3 = new ColumnHeader();
             panel1.SuspendLayout();
             SuspendLayout();
@@ -51,7 +52,6 @@
             // 
             columnHeader3.Text = "AUTOR";
             columnHeader3.TextAlign = HorizontalAlignment.Center;
-            columnHeader3.Width = 100;
             // 
             // btnBuscarLivroNome
             // 
@@ -126,7 +126,7 @@
             // 
             // listViewConsultaLivro
             // 
-            listViewConsultaLivro.Columns.AddRange(new ColumnHeader[] { columnHeader1, columnHeader2, columnHeader3, columnHeader4, columnHeader5 });
+            listViewConsultaLivro.Columns.AddRange(new ColumnHeader[] { columnHeader1, columnHeader2, columnHeader3, columnHeader4, columnHeader5, columnHeader6 });
             listViewConsultaLivro.Cursor = Cursors.Hand;
             listViewConsultaLivro.FullRowSelect = true;
             listViewConsultaLivro.GridLines = true;
@@ -148,7 +148,7 @@
             // 
             columnHeader2.Text = "TITULO";
             columnHeader2.TextAlign = HorizontalAlignment.Center;
-            columnHeader2.Width = 200;
+            columnHeader2.Width = 150;
             // 
             // columnHeader4
             // 
@@ -187,6 +187,10 @@
             panel1.Size = new Size(404, 194);
             panel1.TabIndex = 10;
             // 
+            // columnHeader6
+            // 
+            columnHeader6.Text = "Status";
+            // 
             // frmConsultaLivro
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -218,5 +222,6 @@
         private ColumnHeader columnHeader2;
         private ColumnHeader columnHeader4;
         private ColumnHeader columnHeader5;
+        private ColumnHeader columnHeader6;
     }
 }

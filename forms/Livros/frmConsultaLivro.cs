@@ -41,6 +41,7 @@ namespace Sistema_de_Emprestimo___Biblioteca
                     item.SubItems.Add(livro.Autor);
                     item.SubItems.Add(livro.Editora);
                     item.SubItems.Add(livro.Isbn.ToString());
+                    item.SubItems.Add(livro.Status.ToString());
                     listViewConsultaLivro.Items.Add(item);
                 }
             }
@@ -70,6 +71,7 @@ namespace Sistema_de_Emprestimo___Biblioteca
                 item.SubItems.Add(livroEncontrado.Autor);
                 item.SubItems.Add(livroEncontrado.Editora);
                 item.SubItems.Add(livroEncontrado.Isbn.ToString());
+                item.SubItems.Add(livroEncontrado.Status.ToString());
                 listViewConsultaLivro.Items.Add(item);
             }
             else

@@ -3,44 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|c:\\users\\alexa\\source\\repos\\sistema-de-emprestimo---biblioteca\\classes\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:classes\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|c:\\users\\alexa\\source\\repos\\sistema-de-emprestimo---biblioteca\\classes\\associados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:classes\\associados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|c:\\users\\alexa\\source\\repos\\sistema-de-emprestimo---biblioteca\\forms\\emprestimo\\frmconsultaremprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:forms\\emprestimo\\frmconsultaremprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|c:\\users\\alexa\\source\\repos\\sistema-de-emprestimo---biblioteca\\forms\\emprestimo\\frmconsultaremprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\emprestimo\\frmconsultaremprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:forms\\emprestimo\\frmconsultaremprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|c:\\users\\alexa\\source\\repos\\sistema-de-emprestimo---biblioteca\\forms\\emprestimo\\frmnovoemprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:forms\\emprestimo\\frmnovoemprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\emprestimo\\frmnovoemprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:forms\\emprestimo\\frmnovoemprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|c:\\users\\alexa\\source\\repos\\sistema-de-emprestimo---biblioteca\\classes\\emprestimos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:classes\\emprestimos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|c:\\users\\alexa\\source\\repos\\sistema-de-emprestimo---biblioteca\\classes\\associados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:classes\\associados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|c:\\users\\alexa\\source\\repos\\sistema-de-emprestimo---biblioteca\\classes\\bancodados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:classes\\bancodados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|c:\\users\\alexa\\source\\repos\\sistema-de-emprestimo---biblioteca\\forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|c:\\users\\alexa\\source\\repos\\sistema-de-emprestimo---biblioteca\\classes\\emprestimos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:classes\\emprestimos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\emprestimo\\frmnovoemprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:forms\\emprestimo\\frmnovoemprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\livros\\frmcadastralivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:forms\\livros\\frmcadastralivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|c:\\users\\alexa\\source\\repos\\sistema-de-emprestimo---biblioteca\\forms\\emprestimo\\frmnovoemprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:forms\\emprestimo\\frmnovoemprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|c:\\users\\alexa\\source\\repos\\sistema-de-emprestimo---biblioteca\\classes\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:classes\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|c:\\users\\alexa\\source\\repos\\sistema-de-emprestimo---biblioteca\\forms\\associados\\frmcadastraassociado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3207AC15-207B-49F7-AD46-CEED4CCD47CB}|Sistema de Emprestimo - Biblioteca.csproj|solutionrelative:forms\\associados\\frmcadastraassociado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -60,19 +60,44 @@
         },
         {
           "DockedHeight": 1476,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmConsultarEmprestimo.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Emprestimo\\frmConsultarEmprestimo.cs",
-              "RelativeDocumentMoniker": "forms\\Emprestimo\\frmConsultarEmprestimo.cs",
-              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Emprestimo\\frmConsultarEmprestimo.cs [Projeto]",
-              "RelativeToolTip": "forms\\Emprestimo\\frmConsultarEmprestimo.cs [Projeto]",
+              "DocumentIndex": 4,
+              "Title": "Emprestimos.cs",
+              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\classes\\Emprestimos.cs",
+              "RelativeDocumentMoniker": "classes\\Emprestimos.cs",
+              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\classes\\Emprestimos.cs",
+              "RelativeToolTip": "classes\\Emprestimos.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T01:42:10.176Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2025-01-05T23:59:22.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Associados.cs",
+              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\classes\\Associados.cs",
+              "RelativeDocumentMoniker": "classes\\Associados.cs",
+              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\classes\\Associados.cs",
+              "RelativeToolTip": "classes\\Associados.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAswHQAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T17:19:51.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BancoDados.cs",
+              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\classes\\BancoDados.cs",
+              "RelativeDocumentMoniker": "classes\\BancoDados.cs",
+              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\classes\\BancoDados.cs",
+              "RelativeToolTip": "classes\\BancoDados.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T17:19:20.951Z"
             },
             {
               "$type": "Document",
@@ -82,121 +107,79 @@
               "RelativeDocumentMoniker": "forms\\Emprestimo\\frmConsultarEmprestimo.cs",
               "ToolTip": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Emprestimo\\frmConsultarEmprestimo.cs",
               "RelativeToolTip": "forms\\Emprestimo\\frmConsultarEmprestimo.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAcwGgAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAGsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T01:45:19.039Z",
+              "WhenOpened": "2025-01-05T17:16:35.199Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Livro.cs",
-              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\classes\\Livro.cs",
-              "RelativeDocumentMoniker": "classes\\Livro.cs",
-              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\classes\\Livro.cs",
-              "RelativeToolTip": "classes\\Livro.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAwwFEAAAAjAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "frmConsultarEmprestimo.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Emprestimo\\frmConsultarEmprestimo.cs",
+              "RelativeDocumentMoniker": "forms\\Emprestimo\\frmConsultarEmprestimo.cs",
+              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Emprestimo\\frmConsultarEmprestimo.cs [Projeto]",
+              "RelativeToolTip": "forms\\Emprestimo\\frmConsultarEmprestimo.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T15:13:43.487Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmNovoEmprestimo.cs",
-              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Emprestimo\\frmNovoEmprestimo.cs",
-              "RelativeDocumentMoniker": "forms\\Emprestimo\\frmNovoEmprestimo.cs",
-              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Emprestimo\\frmNovoEmprestimo.cs",
-              "RelativeToolTip": "forms\\Emprestimo\\frmNovoEmprestimo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKkAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T15:23:16.888Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T17:16:33.533Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Emprestimos.cs",
-              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\classes\\Emprestimos.cs",
-              "RelativeDocumentMoniker": "classes\\Emprestimos.cs",
-              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\classes\\Emprestimos.cs",
-              "RelativeToolTip": "classes\\Emprestimos.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA1wB8AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T15:13:02.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Associados.cs",
-              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\classes\\Associados.cs",
-              "RelativeDocumentMoniker": "classes\\Associados.cs",
-              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\classes\\Associados.cs",
-              "RelativeToolTip": "classes\\Associados.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T15:13:37.35Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "frmNovoEmprestimo.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Emprestimo\\frmNovoEmprestimo.cs",
               "RelativeDocumentMoniker": "forms\\Emprestimo\\frmNovoEmprestimo.cs",
               "ToolTip": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Emprestimo\\frmNovoEmprestimo.cs [Projeto]",
               "RelativeToolTip": "forms\\Emprestimo\\frmNovoEmprestimo.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T00:40:47.147Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2025-01-05T17:22:19.338Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "BancoDados.cs",
-              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\classes\\BancoDados.cs",
-              "RelativeDocumentMoniker": "classes\\BancoDados.cs",
-              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\classes\\BancoDados.cs",
-              "RelativeToolTip": "classes\\BancoDados.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "frmNovoEmprestimo.cs",
+              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Emprestimo\\frmNovoEmprestimo.cs",
+              "RelativeDocumentMoniker": "forms\\Emprestimo\\frmNovoEmprestimo.cs",
+              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Emprestimo\\frmNovoEmprestimo.cs",
+              "RelativeToolTip": "forms\\Emprestimo\\frmNovoEmprestimo.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAAD4v4sAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T15:13:36.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T15:49:21.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmCadastraLivro.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Livros\\frmCadastraLivro.cs",
+              "RelativeDocumentMoniker": "forms\\Livros\\frmCadastraLivro.cs",
+              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Livros\\frmCadastraLivro.cs [Projeto]",
+              "RelativeToolTip": "forms\\Livros\\frmCadastraLivro.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T16:41:41.894Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Form1.cs",
-              "RelativeDocumentMoniker": "forms\\Form1.cs",
-              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Form1.cs",
-              "RelativeToolTip": "forms\\Form1.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAIwDkAAAAqAAAAAAAAAA==",
+              "Title": "Livro.cs",
+              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\classes\\Livro.cs",
+              "RelativeDocumentMoniker": "classes\\Livro.cs",
+              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\classes\\Livro.cs",
+              "RelativeToolTip": "classes\\Livro.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAIwEAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T01:39:40.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T16:41:31.844Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Form1.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Form1.cs",
-              "RelativeDocumentMoniker": "forms\\Form1.cs",
-              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Form1.cs [Projeto]",
-              "RelativeToolTip": "forms\\Form1.cs [Projeto]",
+              "Title": "frmCadastraAssociado.cs",
+              "DocumentMoniker": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Associados\\frmCadastraAssociado.cs",
+              "RelativeDocumentMoniker": "forms\\Associados\\frmCadastraAssociado.cs",
+              "ToolTip": "C:\\Users\\alexa\\source\\repos\\Sistema-de-Emprestimo---Biblioteca\\forms\\Associados\\frmCadastraAssociado.cs",
+              "RelativeToolTip": "forms\\Associados\\frmCadastraAssociado.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T01:39:33.505Z"
-            }
-          ]
-        },
-        {
-          "DockedHeight": 1030,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+              "WhenOpened": "2025-01-05T16:43:37.283Z"
             }
           ]
         }

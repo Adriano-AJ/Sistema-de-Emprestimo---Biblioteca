@@ -133,15 +133,24 @@ namespace Sistema_de_Emprestimo___Biblioteca
 
         //Metodos
 
-        public bool IncluirMultas(double valor)
-        {
-            Multa = valor;
-            return true;
-        }
+       
 
-        public bool QuitarMultas(double valor)
-        {   
-            return true;
+        public bool QuitarMultas(double valorPago)
+        {
+            if (valorPago <= 0)
+            {
+                throw new ArgumentException("O valor pago deve ser maior que zero.");
+            }
+
+            if (valorPago >= _multa)
+            {
+                _multa = 0; // Zera a multa
+                return true; // Pagamento concluído
+            }
+            else
+            {
+                throw new InvalidOperationException($"O valor pago ({valorPago:C}) é insuficiente para quitar a multa total ({_multa:C}).");
+            }
         }
     }
 }

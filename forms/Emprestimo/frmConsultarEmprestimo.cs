@@ -32,6 +32,7 @@ namespace Sistema_de_Emprestimo___Biblioteca.forms.Emprestimo
             var associado = BancoDados.Associado.FirstOrDefault(a => a.CPF == cpfAssociado);
             if (associado == null)
             {
+
                 MessageBox.Show("Associado não encontrado.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
@@ -67,30 +68,62 @@ namespace Sistema_de_Emprestimo___Biblioteca.forms.Emprestimo
 
         private void btnPagarMulta_Click(object sender, EventArgs e)
         {
+            string cpf = txtCPFAssociado.Text.Trim();
 
+            if (string.IsNullOrWhiteSpace(cpf))
+            {
+                MessageBox.Show("Informe o CPF do associado.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            var associado = BancoDados.Associado.FirstOrDefault(a => a.CPF == cpf);
+            if (associado == null)
+            {
+                MessageBox.Show("Associado não encontrado.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            try
+            {
+                double valorPago = double.Parse(txtValorMulta.Text.Replace("R$", "").Trim());
+                bool quitado = associado.QuitarMultas(valorPago);
+
+                if (quitado)
+                {
+                    MessageBox.Show("Multa quitada com sucesso!", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    AtualizarStatusBotoes(associado);
+                }
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Informe um valor válido para a multa.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (InvalidOperationException ex)
+            {
+                MessageBox.Show(ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Erro ao quitar multa: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void btnDevolver_Click(object sender, EventArgs e)
         {
-            if (listEmprestimoAssociado.SelectedItems.Count > 0)
+            if (listEmprestimoAssociado.SelectedItems.Count == 0)
             {
-                var selectedItem = listEmprestimoAssociado.SelectedItems[0];
-                int emprestimoId = int.Parse(selectedItem.SubItems[0].Text);
-
-                var emprestimo = BancoDados.Emprestimos.FirstOrDefault(e => e.Id == emprestimoId);
-                if (emprestimo != null)
-                {
-                    emprestimo.Status = "Devolvido";
-
-                    var livro = BancoDados.livros.FirstOrDefault(l => l.Titulo == selectedItem.SubItems[3].Text);
-                    if (livro != null)
-                    {
-                        livro.Status = "Disponível";
-                    }
-
-                    MessageBox.Show("Livro devolvido com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
+                MessageBox.Show("Selecione um empréstimo para devolução.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
             }
+
+            var selectedItem = listEmprestimoAssociado.SelectedItems[0];
+            int emprestimoId = int.Parse(selectedItem.SubItems[0].Text);
+
+            string resultado = Emprestimos.EfetuarDevolucao(emprestimoId, DateTime.Now);
+            MessageBox.Show(resultado, "Devolução", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            // Atualiza a lista de empréstimos
+            PreencherListaEmprestimos(txtCPFAssociado.Text.Trim());
         }
 
         private void listEmprestimoAssociado_SelectedIndexChanged(object sender, EventArgs e)
@@ -104,7 +137,84 @@ namespace Sistema_de_Emprestimo___Biblioteca.forms.Emprestimo
 
                 // Preencher o valor da multa
                 txtValorMulta.Text = selectedItem.SubItems[4].Text;
+
+                string cpfAssociado = selectedItem.SubItems[1].Text;
+
+                var associado = BancoDados.Associado.FirstOrDefault(a => a.CPF == cpfAssociado);
+
+                AtualizarStatusBotoes(associado);
+            }
+        }
+
+        private void PreencherListaEmprestimos(string cpfAssociado)
+        {
+            try
+            {
+                // Limpar itens existentes na lista
+                listEmprestimoAssociado.Items.Clear();
+
+                // Buscar associado pelo CPF
+                var associado = BancoDados.Associado.FirstOrDefault(a => a.CPF == cpfAssociado);
+                
+                if (associado == null)
+                {
+                    MessageBox.Show("Associado não encontrado.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+
+
+                // Filtrar os empréstimos desse associado
+                var emprestimosAssociado = BancoDados.Emprestimos.Where(e => e.AssociadoId == associado.Id).ToList();
+
+                // Adicionar os empréstimos na lista
+                foreach (var emprestimo in emprestimosAssociado)
+                {
+                    var livro = BancoDados.livros.FirstOrDefault(l => l.Titulo == emprestimo.LivroTitulo);
+                    string multa = Emprestimos.CalcularMulta(emprestimo.DateDevolucao, DateTime.Now).ToString("C");
+                    string livrosConcatenados = string.Join(", ", emprestimo.Livros);
+
+                    ListViewItem item = new ListViewItem(emprestimo.Id.ToString()); // ID do empréstimo
+                    item.SubItems.Add(associado.CPF);                              // CPF do associado
+                    item.SubItems.Add(associado.Nome);                             // Nome do associado
+                    item.SubItems.Add(livrosConcatenados);                     // Título do livro
+                    item.SubItems.Add(multa);                                      // Multa (se houver)
+                    item.SubItems.Add(emprestimo.DataEmprestimo.ToShortDateString()); // Data do empréstimo
+
+                    listEmprestimoAssociado.Items.Add(item);
+                }
+
+                if (emprestimosAssociado.Count == 0)
+                {
+                    MessageBox.Show("Nenhum empréstimo encontrado para este associado.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Erro ao carregar a lista de empréstimos: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+        private void AtualizarStatusBotoes(Sistema_de_Emprestimo___Biblioteca.Associados associado)
+        {
+            if (associado == null)
+            {
+                btnDevolver.Enabled = false;
+                btnPagarMulta.Enabled = false;
+                return;
+            }
+
+            // Verifica se o associado tem multa
+            if (associado.Multa > 0)
+            {
+                btnDevolver.Enabled = false;  // Bloqueia devolução
+                btnPagarMulta.Enabled = true; // Permite pagamento
+            }
+            else
+            {
+                btnDevolver.Enabled = true;  // Permite devolução
+                btnPagarMulta.Enabled = false; // Bloqueia pagamento
             }
         }
     }
 }
+

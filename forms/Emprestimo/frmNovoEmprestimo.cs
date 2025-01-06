@@ -15,7 +15,7 @@ namespace Sistema_de_Emprestimo___Biblioteca.forms.Emprestimo
         public frmNovoEmprestimo()
         {
             InitializeComponent();
-            loadDataListBook();
+            
         }
         public void loadDataListBook()
         {
@@ -67,13 +67,15 @@ namespace Sistema_de_Emprestimo___Biblioteca.forms.Emprestimo
         {
             try
             {
-                string cpfAssociado = txtCpfAssociadoEmprestimo.Text;
+                // Verificar se o CPF foi informado
+                string cpfAssociado = txtCpfAssociadoEmprestimo.Text.Trim();
                 if (string.IsNullOrWhiteSpace(cpfAssociado))
                 {
                     MessageBox.Show("Informe o CPF do associado.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
 
+                // Buscar associado
                 var associado = BancoDados.Associado.FirstOrDefault(a => a.CPF == cpfAssociado);
                 if (associado == null)
                 {
@@ -81,36 +83,68 @@ namespace Sistema_de_Emprestimo___Biblioteca.forms.Emprestimo
                     return;
                 }
 
+                // Verificar multas pendentes
+                if (associado.Multa > 0)
+                {
+                    MessageBox.Show("O associado possui multas pendentes. Regularize antes de efetivar o empréstimo.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                // Verificar limite de empréstimos
+                int livrosAtualmenteEmprestados = BancoDados.Emprestimos
+                    .Where(e => e.AssociadoId == associado.Id && e.Status == "confirmado")
+                    .SelectMany(e => e.Livros)
+                    .Count();
+
+                if (livrosAtualmenteEmprestados + listLivrosSelecionados.Items.Count > 3)
+                {
+                    MessageBox.Show($"O associado já possui {livrosAtualmenteEmprestados} livro(s) emprestado(s). Limite máximo: 3 livros.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                // Criar um único empréstimo com todos os livros
                 DateTime dataEmprestimo = DateTime.Now;
                 DateTime dataDevolucao = CalcularDataDevolucao(dataEmprestimo);
+
+                Emprestimos novoEmprestimo = new Emprestimos
+                {
+                    Id = BancoDados.Emprestimos.Count + 1, // Gera um novo ID incremental
+                    AssociadoId = associado.Id,
+                    DataEmprestimo = dataEmprestimo,
+                    DateDevolucao = dataDevolucao,
+                    Status = "confirmado",
+                    Livros = new List<Livro>()
+                };
 
                 foreach (ListViewItem item in listLivrosSelecionados.Items)
                 {
                     string tituloLivro = item.SubItems[0].Text;
-                    var livro = BancoDados.livros.FirstOrDefault(l => l.Titulo == tituloLivro && l.Status == "Disponível");
+                    var livro = BancoDados.livros.FirstOrDefault(l => l.Titulo == tituloLivro);
 
-                    if (livro != null)
+                    if (livro != null && livro.Status.ToLower() == "disponível")
                     {
-                        livro.Status = "Emprestado"; 
-
-                        var emprestimo = Emprestimos.CriarEmprestimo(dataEmprestimo, dataDevolucao, "Confirmado");
-                        BancoDados.Emprestimos.Add(emprestimo);
+                        livro.Status = "emprestado"; // Atualiza o status do livro
+                        novoEmprestimo.Livros.Add(livro); // Adiciona o livro ao empréstimo
                     }
                     else
                     {
-                        MessageBox.Show($"O livro \"{tituloLivro}\" já está emprestado.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show($"O livro '{tituloLivro}' não está disponível para empréstimo.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
                     }
                 }
 
+                BancoDados.Emprestimos.Add(novoEmprestimo);
                 MessageBox.Show("Empréstimo efetivado com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
                 listLivrosSelecionados.Items.Clear();
-                loadDataListBook();
+                MostrarIdEmprestimo();
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Erro ao efetivar o empréstimo: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+        
 
         private void listLivroEmprestimo_DoubleClick(object sender, EventArgs e)
         {

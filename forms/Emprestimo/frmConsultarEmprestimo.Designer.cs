@@ -51,10 +51,15 @@
             // listEmprestimoAssociado
             // 
             listEmprestimoAssociado.Columns.AddRange(new ColumnHeader[] { Id, columnHeader1, columnHeader2, columnHeader3, columnHeader4, columnHeader5, columnHeader8 });
-            listEmprestimoAssociado.Location = new Point(29, 120);
+            listEmprestimoAssociado.Cursor = Cursors.Hand;
+            listEmprestimoAssociado.FullRowSelect = true;
+            listEmprestimoAssociado.GridLines = true;
+            listEmprestimoAssociado.HeaderStyle = ColumnHeaderStyle.Nonclickable;
+            listEmprestimoAssociado.HoverSelection = true;
+            listEmprestimoAssociado.Location = new Point(15, 120);
             listEmprestimoAssociado.Name = "listEmprestimoAssociado";
             listEmprestimoAssociado.Size = new Size(444, 128);
-            listEmprestimoAssociado.TabIndex = 0;
+            listEmprestimoAssociado.TabIndex = 19;
             listEmprestimoAssociado.UseCompatibleStateImageBehavior = false;
             listEmprestimoAssociado.View = View.Details;
             listEmprestimoAssociado.SelectedIndexChanged += listEmprestimoAssociado_SelectedIndexChanged;
