@@ -67,7 +67,6 @@ namespace Sistema_de_Emprestimo___Biblioteca.forms.Emprestimo
         {
             try
             {
-                // Verificar se o CPF foi informado
                 string cpfAssociado = txtCpfAssociadoEmprestimo.Text.Trim();
                 if (string.IsNullOrWhiteSpace(cpfAssociado))
                 {
@@ -75,7 +74,6 @@ namespace Sistema_de_Emprestimo___Biblioteca.forms.Emprestimo
                     return;
                 }
 
-                // Buscar associado
                 var associado = BancoDados.Associado.FirstOrDefault(a => a.CPF == cpfAssociado);
                 if (associado == null)
                 {
@@ -83,8 +81,10 @@ namespace Sistema_de_Emprestimo___Biblioteca.forms.Emprestimo
                     return;
                 }
 
-                // Verificar multas pendentes
-                if (associado.Multa > 0)
+                // Verificar se o associado tem multas pendentes
+                var emprestimoAtivo = BancoDados.Emprestimos.FirstOrDefault(e => e.AssociadoId == associado.Id && e.Status == "confirmado" && e.Multa > 0);
+
+                if (emprestimoAtivo != null)
                 {
                     MessageBox.Show("O associado possui multas pendentes. Regularize antes de efetivar o empréstimo.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
@@ -108,11 +108,9 @@ namespace Sistema_de_Emprestimo___Biblioteca.forms.Emprestimo
 
                 Emprestimos novoEmprestimo = new Emprestimos
                 {
-                    Id = BancoDados.Emprestimos.Count + 1, // Gera um novo ID incremental
                     AssociadoId = associado.Id,
                     DataEmprestimo = dataEmprestimo,
                     DateDevolucao = dataDevolucao,
-                    Status = "confirmado",
                     Livros = new List<Livro>()
                 };
 
@@ -134,17 +132,19 @@ namespace Sistema_de_Emprestimo___Biblioteca.forms.Emprestimo
                 }
 
                 BancoDados.Emprestimos.Add(novoEmprestimo);
+
                 MessageBox.Show("Empréstimo efetivado com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 listLivrosSelecionados.Items.Clear();
-                MostrarIdEmprestimo();
+                MostrarIdEmprestimo(); // Função para exibir o ID do novo empréstimo
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Erro ao efetivar o empréstimo: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-        
+
+
 
         private void listLivroEmprestimo_DoubleClick(object sender, EventArgs e)
         {

@@ -19,50 +19,18 @@ namespace Sistema_de_Emprestimo___Biblioteca.forms.Emprestimo
 
         private void btnConsultarEmprestimo_Click(object sender, EventArgs e)
         {
-            string cpfAssociado = txtCPFAssociado.Text;
-
-            // Validar se o CPF foi informado
-            if (string.IsNullOrWhiteSpace(cpfAssociado))
             {
-                MessageBox.Show("Informe o CPF do associado.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
+                string cpfAssociado = txtCPFAssociado.Text;
 
-            // Buscar o associado
-            var associado = BancoDados.Associado.FirstOrDefault(a => a.CPF == cpfAssociado);
-            if (associado == null)
-            {
+                // Validar se o CPF foi informado
+                if (string.IsNullOrWhiteSpace(cpfAssociado))
+                {
+                    MessageBox.Show("Informe o CPF do associado.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
 
-                MessageBox.Show("Associado não encontrado.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-
-            // Limpar a lista de empréstimos
-            listEmprestimoAssociado.Items.Clear();
-
-            // Buscar os empréstimos do associado
-            var emprestimos = BancoDados.Emprestimos.Where(e => e.Id == associado.Id).ToList();
-
-            if (emprestimos.Count == 0)
-            {
-                MessageBox.Show("Nenhum empréstimo encontrado para este associado.", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                return;
-            }
-
-            // Adicionar os empréstimos na lista
-            foreach (var emprestimo in emprestimos)
-            {
-                var livro = BancoDados.livros.FirstOrDefault(l => l.Id == emprestimo.Id);
-
-                ListViewItem item = new ListViewItem(emprestimo.Id.ToString());
-                item.SubItems.Add(associado.CPF);
-                item.SubItems.Add(associado.Nome);
-                item.SubItems.Add(livro?.Titulo ?? "N/A");
-                item.SubItems.Add(associado.Multa.ToString("C"));
-                item.SubItems.Add(emprestimo.DataEmprestimo.ToShortDateString());
-                item.SubItems.Add(emprestimo.DateDevolucao.ToShortDateString());
-
-                listEmprestimoAssociado.Items.Add(item);
+                // Chamar o método para preencher a lista de empréstimos
+                PreencherListaEmprestimos(cpfAssociado);
             }
         }
 
@@ -90,23 +58,34 @@ namespace Sistema_de_Emprestimo___Biblioteca.forms.Emprestimo
 
                 if (quitado)
                 {
-                    MessageBox.Show("Multa quitada com sucesso!", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    // Atualiza o banco de dados
+                    BancoDados.AtualizarAssociado(associado);
+
+                    // Atualiza a interface
+                    txtValorMulta.Text = "R$ 0,00"; // Zera o valor da multa na interface
+                    btnPagarMulta.Enabled = false;   // Desabilita o botão de pagar multa
+
+                    // Atualiza os botões de acordo com o status da multa
                     AtualizarStatusBotoes(associado);
+
+                    MessageBox.Show("Multa quitada com sucesso!", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("O valor pago não é suficiente para quitar a multa.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             catch (FormatException)
             {
                 MessageBox.Show("Informe um valor válido para a multa.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            catch (InvalidOperationException ex)
-            {
-                MessageBox.Show(ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
             catch (Exception ex)
             {
                 MessageBox.Show($"Erro ao quitar multa: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        
 
         private void btnDevolver_Click(object sender, EventArgs e)
         {
@@ -120,7 +99,9 @@ namespace Sistema_de_Emprestimo___Biblioteca.forms.Emprestimo
             var selectedItem = listEmprestimoAssociado.SelectedItems[0];
             int emprestimoId = int.Parse(selectedItem.SubItems[0].Text);
 
-            string resultado = Emprestimos.EfetuarDevolucao(emprestimoId, dateSelectConsultar.Value);
+            List<DateTime> feriados = Emprestimos.ObterFeriados();
+
+            string resultado = Emprestimos.EfetuarDevolucao(emprestimoId, dateSelectConsultar.Value,feriados);
             MessageBox.Show(resultado, "Devolução", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             // Atualiza a lista de empréstimos
@@ -163,25 +144,35 @@ namespace Sistema_de_Emprestimo___Biblioteca.forms.Emprestimo
                     return;
                 }
 
-
-
                 // Filtrar os empréstimos desse associado
                 var emprestimosAssociado = BancoDados.Emprestimos.Where(e => e.AssociadoId == associado.Id).ToList();
 
                 // Adicionar os empréstimos na lista
                 foreach (var emprestimo in emprestimosAssociado)
                 {
-                    var livro = BancoDados.livros.FirstOrDefault(l => l.Titulo == emprestimo.LivroTitulo);
-                    string multa = Emprestimos.CalcularMulta(emprestimo.DateDevolucao, DateTime.Now).ToString("C");
-                    string livrosConcatenados = string.Join(", ", emprestimo.Livros);
+                    // Concatenar os títulos dos livros emprestados
+                    string livrosConcatenados = string.Join(", ", emprestimo.Livros.Select(l => l.Titulo));
 
+                    List<DateTime> feriados = Emprestimos.ObterFeriados();
+
+                    // Calcular a multa temporária com base na data selecionada
+                    string multa = Emprestimos.CalcularMulta(
+                        emprestimo.DateDevolucao,
+                        dateSelectConsultar.Value,
+                        emprestimo.Livros.Count,
+                        feriados
+                    ).ToString("C");
+
+                    // Criar o item para exibição
                     ListViewItem item = new ListViewItem(emprestimo.Id.ToString()); // ID do empréstimo
                     item.SubItems.Add(associado.CPF);                              // CPF do associado
                     item.SubItems.Add(associado.Nome);                             // Nome do associado
-                    item.SubItems.Add(livrosConcatenados);                     // Título do livro
-                    item.SubItems.Add(multa);                                      // Multa (se houver)
+                    item.SubItems.Add(string.IsNullOrWhiteSpace(livrosConcatenados) ? "N/A" : livrosConcatenados); // Livros
+                    item.SubItems.Add(multa);                                      // Multa calculada
                     item.SubItems.Add(emprestimo.DataEmprestimo.ToShortDateString()); // Data do empréstimo
+                    item.SubItems.Add(emprestimo.DateDevolucao.ToShortDateString()); // Data prevista para devolução
 
+                    // Adicionar o item à lista
                     listEmprestimoAssociado.Items.Add(item);
                 }
 
@@ -216,17 +207,63 @@ namespace Sistema_de_Emprestimo___Biblioteca.forms.Emprestimo
                 btnPagarMulta.Enabled = false; // Bloqueia pagamento
             }
         }
-
         private void dateSelectConsultar_ValueChanged(object sender, EventArgs e)
         {
-            DateTime dataSelecionada = dateSelectConsultar.Value;
+
+            try
+            {
+                // Verifica se um empréstimo está selecionado
+                if (listEmprestimoAssociado.SelectedItems.Count == 0)
+                {
+                    MessageBox.Show("Selecione um empréstimo na lista.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                // Obtém o item selecionado e os dados correspondentes
+                ListViewItem selectedItem = listEmprestimoAssociado.SelectedItems[0];
+                int emprestimoId = int.Parse(selectedItem.SubItems[0].Text); // ID do empréstimo
+
+                var emprestimo = BancoDados.Emprestimos.FirstOrDefault(e => e.Id == emprestimoId);
+                if (emprestimo == null)
+                {
+                    MessageBox.Show("Empréstimo não encontrado.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                // Obtém o associado do empréstimo
+                var associado = BancoDados.Associado.FirstOrDefault(a => a.Id == emprestimo.AssociadoId);
+                if (associado == null)
+                {
+                    MessageBox.Show("Associado não encontrado.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+                List<DateTime> feriados = Emprestimos.ObterFeriados();
+                // Calcula a multa com base na nova data de devolução
+                DateTime novaDataDevolucao = dateSelectConsultar.Value;
+                double multaCalculada = Emprestimos.CalcularMulta(emprestimo.DateDevolucao, novaDataDevolucao, emprestimo.Livros.Count,feriados);
+
+                // Atualiza a multa no associado
+                associado.Multa = (double)multaCalculada;
+                
+                // Atualizar os Botões
+                btnDevolver.Enabled =  associado.Multa <= 0;
+                btnPagarMulta.Enabled = associado.Multa > 0;
+
+                // Atualiza os textos dos campos de multa na interface
+                txtValorMulta.Text = multaCalculada.ToString("C"); // Mostra o valor formatado como moeda
+                selectedItem.SubItems[4].Text = multaCalculada.ToString("C"); // Atualiza a lista
+
+                MessageBox.Show("Multa recalculada com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Erro ao atualizar a multa: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
 
 
-            Emprestimos.CalcularMulta(dateSelectConsultar);
-
-
+            }
         }
+
     }
 }
 
